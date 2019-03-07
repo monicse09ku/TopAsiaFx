@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+
+sitemap: https://topasiafx.com/sitemap.xml

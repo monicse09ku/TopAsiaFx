@@ -1,0 +1,1445 @@
+2019/03/05 08:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/3g.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/3g.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//3g.php
+---
+2019/03/05 08:35:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ic-markets".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('ic-markets')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/ic-markets
+---
+2019/03/05 09:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/05 09:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/05 09:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/05 09:01:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/05 09:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/index.php
+---
+2019/03/05 09:01:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/index.php
+---
+2019/03/05 09:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/index.php
+---
+2019/03/05 09:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/index.php
+---
+2019/03/05 09:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/index.php
+---
+2019/03/05 09:02:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/index.php
+---
+2019/03/05 09:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "nordfx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('nordfx')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/nordfx
+---
+2019/03/05 09:02:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sgt-markets".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('sgt-markets')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/sgt-markets
+---
+2019/03/05 09:02:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "www.liteforex.com".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('www.liteforex.c...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/www.liteforex.com/?uid=512584708&cid=18792
+---
+2019/03/05 09:02:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "liteforex".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('liteforex')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/liteforex
+---
+2019/03/05 09:02:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "octafx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('octafx')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/octafx
+---
+2019/03/05 09:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 09:48:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 10:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/05 10:26:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/05 11:22:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "octafx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('octafx')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/octafx
+HTTP_REFERER=http://topasiafx.com/best-broker-reviews/octafx
+---
+2019/03/05 12:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 12:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 14:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 14:19:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 15:59:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/05 18:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:01:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:02:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:02:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 18:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/05 19:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "best-broker-reviews/justforex".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('best-broker-rev...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/best-broker-reviews/justforex
+---
+2019/03/05 20:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/index.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/index.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php?ac=member&at=reg
+---
+2019/03/05 20:38:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/web.zip".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/web.zip')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//web.zip
+HTTP_REFERER=http://www.topasiafx.com//web.zip
+---
+2019/03/05 20:38:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/web.rar".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/web.rar')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//web.rar
+HTTP_REFERER=http://www.topasiafx.com//web.rar
+---
+2019/03/05 20:38:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/wwwroot.zip".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/wwwroot.zip')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//wwwroot.zip
+HTTP_REFERER=http://www.topasiafx.com//wwwroot.zip
+---
+2019/03/05 20:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/wwwroot.rar".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/wwwroot.rar')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//wwwroot.rar
+HTTP_REFERER=http://www.topasiafx.com//wwwroot.rar
+---
+2019/03/05 20:38:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/www.zip".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/www.zip')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//www.zip
+HTTP_REFERER=http://www.topasiafx.com//www.zip
+---
+2019/03/05 20:38:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/www.rar".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/www.rar')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//www.rar
+HTTP_REFERER=http://www.topasiafx.com//www.rar
+---
+2019/03/05 23:47:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ytc-10-welcome-bonus".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('ytc-10-welcome-...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/ytc-10-welcome-bonus
+---
+2019/03/05 23:52:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CController.php:483
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CController.php(270): CController->missingAction('view')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/404
+---
+2019/03/06 00:16:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CController.php:483
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CController.php(270): CController->missingAction('view')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/404
+---
+2019/03/06 00:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 00:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 00:29:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "forex-deposit-bonuses”".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('forex-deposit-b...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forex-deposit-bonuses%E2%80%9D
+HTTP_REFERER=https://www.selfgrowth.com/articles/need-to-know-before-an-action-with-forex-brokers
+---
+2019/03/06 01:56:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 01:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 01:57:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CController.php:483
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CController.php(270): CController->missingAction('view')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(282): CController->run('view')
+#2 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('site/view')
+#3 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/404
+---
+2019/03/06 01:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/plus/ad_js.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/plus/ad_js.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//plus/ad_js.php?aid=715
+---
+2019/03/06 01:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/dcman/BaseManage/TemplatePath_Manage.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/dcman/BaseMana...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//dcman/BaseManage/TemplatePath_Manage.aspx?action=insert
+---
+2019/03/06 01:58:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor/edit...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php
+---
+2019/03/06 01:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor/edit...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor/editor/filemanager/connectors/php/connector.php
+---
+2019/03/06 01:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor/editor/filemanager/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor/edit...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor/editor/filemanager/connectors/asp/connector.asp
+---
+2019/03/06 01:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor/edit...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor/editor/filemanager/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor/edit...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+---
+2019/03/06 01:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor/edit...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor3/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor3/edi...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor3/editor/filemanager/browser/default/connectors/php/connector.php
+---
+2019/03/06 01:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor3/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor3/edi...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor3/editor/filemanager/connectors/php/connector.php
+---
+2019/03/06 01:58:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor3/editor/filemanager/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor3/edi...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor3/editor/filemanager/connectors/asp/connector.asp
+---
+2019/03/06 01:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor3/editor/filemanager/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor3/edi...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor3/editor/filemanager/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor3/editor/filemanager/browser/default/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor3/edi...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor3/editor/filemanager/browser/default/connectors/asp/connector.asp
+---
+2019/03/06 01:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/FCKeditor3/editor/filemanager/browser/default/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/FCKeditor3/edi...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//FCKeditor3/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Web_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Web_fckeditor/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Web_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php
+---
+2019/03/06 01:58:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Web_fckeditor/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Web_fckeditor/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Web_fckeditor/editor/filemanager/connectors/php/connector.php
+---
+2019/03/06 01:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Web_fckeditor/editor/filemanager/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Web_fckeditor/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Web_fckeditor/editor/filemanager/connectors/asp/connector.asp
+---
+2019/03/06 01:58:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Web_fckeditor/editor/filemanager/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Web_fckeditor/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Web_fckeditor/editor/filemanager/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Web_fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Web_fckeditor/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Web_fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+---
+2019/03/06 01:58:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Web_fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Web_fckeditor/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Web_fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/admin/FCKedito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php
+---
+2019/03/06 01:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/admin/FCKeditor/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/admin/FCKedito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//admin/FCKeditor/editor/filemanager/connectors/php/connector.php
+---
+2019/03/06 01:58:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/admin/FCKedito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp
+---
+2019/03/06 01:58:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/admin/FCKedito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/admin/FCKedito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp
+---
+2019/03/06 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/admin/FCKedito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx
+---
+2019/03/06 01:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/index.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/index.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php?c=api&m=data2&auth=50ce0d2401ce4802751739552c8e4467&param=update_avatar
+---
+2019/03/06 01:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Rose20190306155849.txt".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Rose2019030615...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Rose20190306155849.txt
+HTTP_REFERER=http://www.topasiafx.com//Rose20190306155849.txt
+---
+2019/03/06 01:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/Rose20190306155849.txt".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/Rose2019030615...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//Rose20190306155849.txt
+---
+2019/03/06 01:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/search.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/search.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//search.php
+---
+2019/03/06 01:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "//lib/smarty/plugins/modifier.config.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('//lib/smarty/pl...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=///lib/smarty/plugins/modifier.config.php
+---
+2019/03/06 01:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/index.php/Home/AppUpload/commentUpload".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/index.php/Home...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php/Home/AppUpload/commentUpload
+---
+2019/03/06 01:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/index.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/index.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//index.php?s=/admin/upload/uploadfile
+---
+2019/03/06 02:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 02:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 04:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 04:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 04:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "superforex-25-no-deposit-bonus".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('superforex-25-n...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/superforex-25-no-deposit-bonus
+---
+2019/03/06 06:07:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "review/fxprimus".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('review/fxprimus')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/review/fxprimus
+---
+2019/03/06 06:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 06:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 06:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fck/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('fck/editor/file...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fck/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/fck/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/FCKeditor/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/FCKeditor...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/FCKeditor/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/admin/FCKeditor/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fckeditor/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('fckeditor/edito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fckeditor/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/fckeditor/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fck/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('fck/editor/file...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fck/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/fck/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/FCKeditor...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/fckeditor...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('FCKeditor/edito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FCK/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('FCK/editor/file...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/FCK/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/FCK/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "FCK/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('FCK/editor/file...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/FCK/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/FCK/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/fckeditor/editor/filemanager/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/fckeditor...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/fckeditor/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/admin/fckeditor/editor/filemanager/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:27:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fckeditor/editor/filemanager/browser/default/connectors/php/connector.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('fckeditor/edito...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+HTTP_REFERER=http://www.topasiafx.com/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php?Command=GetFoldersAndFiles&Type=File&CurrentFolder=/
+---
+2019/03/06 06:51:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "elfinder/php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('elfinder/php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/elfinder/php/connector.minimal.php
+---
+2019/03/06 08:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 08:33:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 09:17:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/plug/aliyun/aliyun_EditAcl.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/plug/aliyun/al...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//plug/aliyun/aliyun_EditAcl.asp
+---
+2019/03/06 10:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "caesar-trade-400-deposit-bonus".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('caesar-trade-40...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/caesar-trade-400-deposit-bonus
+---
+2019/03/06 12:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 12:15:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 12:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/06 12:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/06 12:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 12:49:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 13:08:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/06 13:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fortfs-35-usd-no-deposit-welcome-bonus".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('fortfs-35-usd-n...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/fortfs-35-usd-no-deposit-welcome-bonus
+---
+2019/03/06 15:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "elfinder/php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('elfinder/php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/elfinder/php/connector.minimal.php
+---
+2019/03/06 15:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/06 15:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 15:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://www.topasiafx.com/css/data_table.css
+---
+2019/03/06 16:07:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/06 16:41:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/06 21:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/06 21:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/
+---
+2019/03/06 22:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2019/03/06 22:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/elfinder".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/elfinder')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/elfinder/connector.minimal.php
+---
+2019/03/07 00:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/07 00:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/07 00:53:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/config/AspCms_Config.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/config/AspCms_...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//config/AspCms_Config.asp
+HTTP_REFERER=http://www.topasiafx.com//config/AspCms_Config.asp
+---
+2019/03/07 00:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/plus/laobiao.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/plus/laobiao.p...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//plus/laobiao.php
+HTTP_REFERER=http://www.topasiafx.com//plus/laobiao.php
+---
+2019/03/07 00:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/weki.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/weki.asp')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//weki.asp
+HTTP_REFERER=http://www.topasiafx.com//weki.asp
+---
+2019/03/07 00:53:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/install/m7lrv.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/install/m7lrv....')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//install/m7lrv.php
+HTTP_REFERER=http://www.topasiafx.com//install/m7lrv.php
+---
+2019/03/07 02:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 02:44:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 03:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/elfinder/php/connector.minimal.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/elfinder/...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/elfinder/php/connector.minimal.php
+---
+2019/03/07 03:39:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 04:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/data/cache/asd.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/data/cache/asd...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//data/cache/asd.php
+HTTP_REFERER=http://www.topasiafx.com//data/cache/asd.php
+---
+2019/03/07 04:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/plus/result.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/plus/result.ph...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//plus/result.php
+HTTP_REFERER=http://www.topasiafx.com//plus/result.php
+---
+2019/03/07 04:17:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/plus/read.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/plus/read.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//plus/read.php
+HTTP_REFERER=http://www.topasiafx.com//plus/read.php
+---
+2019/03/07 04:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/data/cache/flye.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/data/cache/fly...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//data/cache/flye.php
+HTTP_REFERER=http://www.topasiafx.com//data/cache/flye.php
+---
+2019/03/07 04:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/fuck.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/fuck.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//fuck.php
+HTTP_REFERER=http://www.topasiafx.com//fuck.php
+---
+2019/03/07 04:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/inc/config.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/inc/config.asp')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//inc/config.asp
+HTTP_REFERER=http://www.topasiafx.com//inc/config.asp
+---
+2019/03/07 04:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/config/AspCms_Config.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/config/AspCms_...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//config/AspCms_Config.asp
+HTTP_REFERER=http://www.topasiafx.com//config/AspCms_Config.asp
+---
+2019/03/07 04:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/sqzr.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/sqzr.asp')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//sqzr.asp
+HTTP_REFERER=http://www.topasiafx.com//sqzr.asp
+---
+2019/03/07 04:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/concon.asp".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/concon.asp')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//concon.asp
+HTTP_REFERER=http://www.topasiafx.com//concon.asp
+---
+2019/03/07 04:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/07 04:18:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/07 06:06:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2019/03/07 06:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 07:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/web.zip".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/web.zip')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//web.zip
+HTTP_REFERER=http://www.topasiafx.com//web.zip
+---
+2019/03/07 07:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/web.rar".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/web.rar')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//web.rar
+HTTP_REFERER=http://www.topasiafx.com//web.rar
+---
+2019/03/07 07:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/wwwroot.zip".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/wwwroot.zip')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//wwwroot.zip
+HTTP_REFERER=http://www.topasiafx.com//wwwroot.zip
+---
+2019/03/07 07:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/wwwroot.rar".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/wwwroot.rar')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//wwwroot.rar
+HTTP_REFERER=http://www.topasiafx.com//wwwroot.rar
+---
+2019/03/07 07:08:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/www.zip".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/www.zip')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//www.zip
+HTTP_REFERER=http://www.topasiafx.com//www.zip
+---
+2019/03/07 07:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/www.rar".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/www.rar')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//www.rar
+HTTP_REFERER=http://www.topasiafx.com//www.rar
+---
+2019/03/07 07:11:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 07:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 10:08:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 10:13:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 10:26:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 10:43:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "wp-login.php".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('wp-login.php')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wp-login.php
+---
+2019/03/07 10:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/data/admin/ver.txt".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/data/admin/ver...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//data/admin/ver.txt
+---
+2019/03/07 10:57:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "/data/admin/ver.txt".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('/data/admin/ver...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=//data/admin/ver.txt
+---
+2019/03/07 11:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_both.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
+2019/03/07 11:18:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/sort_asc.png".' in /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home2/eabadat60/public_html/topasiafx.com/framework/web/CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 /home2/eabadat60/public_html/topasiafx.com/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home2/eabadat60/public_html/topasiafx.com/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=https://www.topasiafx.com/css/data_table.css
+---
