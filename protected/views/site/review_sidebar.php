@@ -68,7 +68,7 @@ $image_url = $this_broker['broker_image'];
     
         <a href="<?php echo $broker_data['site_address'];?>"><img class="broker_sidebar_images_broker_list" src="<?php echo Yii::app()->request->getBaseUrl(true); ?>/images/broker_images/<?php echo $image_url ?>"></a>
        
-        <span class="grid_score" style="text-align: center;"><?php echo $broker_data['user_score'];?></span>
+        <span class="grid_score" style="text-align: center;"><?php echo $broker_data['score'];?></span>
     
     </div>
     <?php } ?>

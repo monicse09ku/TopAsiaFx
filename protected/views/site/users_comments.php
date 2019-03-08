@@ -22,13 +22,16 @@ if(count($single_broker_users_reviews) > 0){
 
 			<div class="col-md-4">
 				<?php 
-					for ($i=1; $i < 6; $i++) { 
-						if($i <= $single_broker_users_review['score']){
-							echo '<i class="fa fa-2x fa-star comment-star rated-star" aria-hidden="true"></i>';
-						}else{
-							echo '<i class="fa fa-2x fa-star-o comment-star" aria-hidden="true"></i>';
+					if(!empty($single_broker_users_review['score'])){
+						for ($i=1; $i < 6; $i++) { 
+							if($i <= $single_broker_users_review['score']){
+								echo '<i class="fa fa-2x fa-star comment-star rated-star" aria-hidden="true"></i>';
+							}else{
+								echo '<i class="fa fa-2x fa-star-o comment-star" aria-hidden="true"></i>';
+							}
 						}
 					}
+					
 				?>
 			</div>
 		</div>

@@ -54,7 +54,7 @@ $image_url = $this_broker['broker_image'];
 			<div class="review_top">
 				<h3>
 					<?php echo $this_broker['h1']; ?>
-					<span class="grid_score_detail" style=""><?php echo $this_broker['user_score'];?></span>
+					<span class="grid_score_detail" style=""><?php echo $this_broker['score'];?></span>
 				</h3>
 				<h5>
 					<?php echo $this_broker['broker_short_desc']; ?>

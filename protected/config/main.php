@@ -61,8 +61,24 @@ return array(
 			    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 			    '<controller:\w+>/<action:\w+>/<url>'=>'<controller>/<action>',
+			    '<action:blogs>'=>'site/blogs',
+			    '<action:blogs>/<url>'=>'site/blogs',			    
 			),
 		),
+
+		/*'urlManager'=>array(
+			'urlFormat'=>'path',
+			'showScriptName'=>false,
+			'caseSensitive'=>false, 
+			'rules'=>array(
+			    'login'=>'site/login',
+			    'site/user/create'=>'user/create',
+			    'site/user/forgotpassword'=>'user/forgotpassword',
+			    '<controller:\w+>/<id:\d+>'=>'<controller>/view',
+			    '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+			    '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+			),
+		),*/
 		
 
 		// database settings are configured in database.php

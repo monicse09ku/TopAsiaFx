@@ -57,6 +57,7 @@
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonuses</a></li>
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/about">About Us</a></li>
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/contact">Contact Us</a></li>
+                            <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/blogs">Blogs</a></li>
                             <?php if(!Yii::app()->user->isGuest){?>
                             <li><a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/dashboard/admin">Dashboard</a></li>
                             <li><a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/site/logout">Logout (<?php echo ucfirst(Yii::app()->user->name);?>)</a></li>
@@ -126,6 +127,7 @@
                 deposit = "",
                 spreads = "",
                 education = "";
+            
             $.fn.dataTable.ext.search.push(function(e, s, t) {
                 if (!(score || deposit || spreads || education)) return !0;
                 if (score) {
@@ -136,7 +138,9 @@
                     if (parseInt(s[4]) < spreads) return !0
                 } else if (education && s[8].indexOf(education) >= 0) return !0;
                 return !1
-            }), $(document).ready(function() {
+            }), 
+
+            $(document).ready(function() {
                 $('[data-toggle="tooltip"]').tooltip({
                     html: !0
                 });
@@ -147,6 +151,8 @@
                 $("#score_select, #deposit_select, #spreads_select, #education_select").change(function() {
                     score = $("#score_select").val(), deposit = $("#deposit_select").val(), spreads = $("#spreads_select").val(), education = $("#education_select").val(), e.draw(), $("#score_select").val(""), $("#deposit_select").val(""), $("#spreads_select").val(""), $("#education_select").val("")
                 }), $(".carousel").carousel(), $(".grid_score:first").css("background", "url(../images/user_ranking_first.png) no-repeat")
+
+                ResCarouselSize();
             })
             
             /* faqs collapse */
@@ -247,6 +253,82 @@
                     },
                 });        
             });
+
+            $("#post_rating_form").submit(function(e) {
+                e.preventDefault();
+                var post_id = $('#post_id').val();
+            
+                var name = $('#post_rating_form_name').val();
+                if(name.length === 0){
+                    show_alert('alert-danger', 'Please provide name.');
+                    $('#post_rating_form_name').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('#post_rating_form_name').css('border', '1px solid green');
+                }
+            
+                var email = $('#post_rating_form_email').val();
+                if(email.length === 0){
+                    show_alert('alert-danger', 'Please provide email.');
+                    $('#post_rating_form_email').css('border', '1px solid red');
+                    return false;
+                }else{
+                    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                    if (re.test(email) === false) {
+                        show_alert('alert-danger', 'Please provide valid email.');
+                        $('#post_rating_form_email').css('border', '1px solid red');
+                        return false;
+                    }else{
+                        $('#post_rating_form_email').css('border', '1px solid green');
+                    }                
+                }
+            
+                var country = $('#post_rating_form_country').val();
+                if(country.length === 0){
+                    show_alert('alert-danger', 'Please select country.');
+                    $('#post_rating_form_country').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('#post_rating_form_country').css('border', '1px solid green');
+                }
+            
+                var comment = $('.post_rating_form_comment_text').val();
+                if(comment.length === 0){
+                    show_alert('alert-danger', 'Please provide comment.');
+                    $('.post_rating_form_comment_text').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.post_rating_form_comment_text').css('border', '1px solid green');
+                }
+            
+                var values = {
+                    post_id: post_id,
+                    name: name,
+                    user_email: email,
+                    country: country,
+                    comment: comment,
+                };
+                var url = '<?php echo Yii::app()->getBaseUrl(true);?>/Postsreview/UsersReviewInsert'
+                
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: values,
+                    success: function(result){
+                        var response = JSON.parse(result);
+                        if(response.status === 'failed'){
+                            show_alert('alert-danger', response.message);
+                        }else{
+                            show_alert('alert-success', response.message);
+                            $('#post_rating_form_name').val('');
+                            $('#post_rating_form_email').val('');
+                            $('#post_rating_form_country').val('');
+                            $('.post_rating_form_comment_text').val('');
+                            $('#characters_left').text('1000 characters left');
+                        }
+                    },
+                });        
+            });
             
             $('#comment_text').keyup(updateCount);
             $('#comment_text').keydown(updateCount);
@@ -275,6 +357,122 @@
                 }
             
             });*/
+
+            var itemsMainDiv = ('.MultiCarousel');
+            var itemsDiv = ('.MultiCarousel-inner');
+            var itemWidth = "";
+            var postsCount = 1;
+
+            $('.leftLst, .rightLst').click(function () {
+                var condition = $(this).hasClass("leftLst");
+                if (condition)
+                    click(0, this);
+                else
+                    click(1, this)
+            });
+            
+            $(window).resize(function () {
+                ResCarouselSize();
+            });
+
+            //this function define the size of the items
+            function ResCarouselSize() {
+                var incno = 0;
+                var dataItems = ("data-items");
+                var itemClass = ('.item');
+                var id = 0;
+                var btnParentSb = '';
+                var itemsSplit = '';
+                var sampwidth = $(itemsMainDiv).width();
+                var bodyWidth = $('body').width();
+                $(itemsDiv).each(function () {
+                    id = id + 1;
+                    var itemNumbers = $(this).find(itemClass).length;
+                    btnParentSb = $(this).parent().attr(dataItems);
+                    itemsSplit = btnParentSb.split(',');
+                    $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+                    if (bodyWidth >= 1200) {
+                        incno = itemsSplit[3];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 992) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 768) {
+                        incno = itemsSplit[1];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else {
+                        incno = itemsSplit[0];
+                        itemWidth = sampwidth / incno;
+                    }
+                    $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                    $(this).find(itemClass).each(function () {
+                        $(this).outerWidth(itemWidth);
+                    });
+
+                    $(".leftLst").addClass("over");
+                    $(".rightLst").removeClass("over");
+
+                });
+            }
+
+
+            //this function used to move the items
+            function ResCarousel(e, el, s) {
+                var leftBtn = ('.leftLst');
+                var rightBtn = ('.rightLst');
+                var translateXval = '';
+                var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                var values = divStyle.match(/-?[\d\.]+/g);
+                var xds = Math.abs(values[4]);
+                if (e == 0) {
+                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                    $(el + ' ' + rightBtn).removeClass("over");
+
+                    if (translateXval <= itemWidth / 2) {
+                        translateXval = 0;
+                        $(el + ' ' + leftBtn).addClass("over");
+                    }
+                }
+                else if (e == 1) {
+                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                    $(el + ' ' + leftBtn).removeClass("over");
+
+                    if (translateXval >= itemsCondition - itemWidth / 2) {
+                        translateXval = itemsCondition;
+                        $(el + ' ' + rightBtn).addClass("over");
+                    }
+                }
+                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+            }
+
+            //It is used to get some elements from btn
+            function click(ell, ee) {
+                var Parent = "#" + $(ee).parent().attr("id");
+                var slide = $(Parent).attr("data-slide");
+                ResCarousel(ell, Parent, slide);
+            }
+
+            function getUrlParameter(sParam) {
+                var sPageURL = window.location.search.substring(1),
+                    sURLVariables = sPageURL.split('&'),
+                    sParameterName,
+                    i;
+
+                for (i = 0; i < sURLVariables.length; i++) {
+                    sParameterName = sURLVariables[i].split('=');
+
+                    if (sParameterName[0] === sParam) {
+                        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                    }
+                }
+            }
+
             
         </script>
         <script type="application/ld+json">

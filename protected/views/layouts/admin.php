@@ -208,6 +208,7 @@
                                 <li class="<?php if(strpos($url, 'categories/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('categories/admin'); ?>"><i class="fa fa-circle-o"></i> Manage Category</a></li>
                                 <li class="<?php if(strpos($url, 'posts/create') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('posts/create'); ?>"><i class="fa fa-circle-o"></i> Create Post</a></li>
                                 <li class="<?php if(strpos($url, 'posts/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('posts/admin'); ?>"><i class="fa fa-circle-o"></i> Manage Posts</a></li>
+                                <li class="<?php if(strpos($url, 'postsreview/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('postsreview/admin'); ?>"><i class="fa fa-circle-o"></i> Posts Reviews</a></li>
                             </ul>
                         </li>
                     </ul>

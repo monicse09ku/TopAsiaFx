@@ -7,7 +7,7 @@
     <div class="header_top">
         <div class="col-md-12">
             <h2>Top Trusted Forex Brokers Who Performing Best!</h2>
-            <!--h3>How to Choose a regulated Forex Broker?</h3-->
+            <!-- <h3>Details Broker Review will help to make a right decision!</h3> -->
         </div>
     </div>
     
@@ -114,7 +114,7 @@
                 <td><b><?php echo $broker_data['min_deposit'];?></b></td>
                 <td><b><?php echo $broker_data['spreads_from'];?></b></td>
                 <td>
-                    <p><span class="grid_score"><?php echo $broker_data['user_score'];?></span></p>
+                    <p><span class="grid_score"><?php echo $broker_data['score'];?></span></p>
                     <a class="read_review_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/best-forex-broker/<?php echo $broker_url ?>">Read Review</a>
                 </td>
                 <td><b><?php echo $broker_data['max_leverage'];?></b></td>
@@ -229,6 +229,10 @@
 
     <div class="faqs_section">
         <?= $this->renderPartial('faqs',array('faqs' => $faqs));?>
+    </div>
+
+    <div class="faqs_section">
+        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
     </div>
 
 </div><!-- container end -->

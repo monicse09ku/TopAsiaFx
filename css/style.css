@@ -977,6 +977,12 @@ img.jssocials-share-logo {
     .inner_right img {
         width: 100%;
     }
+    .outer_categoryies {
+        position: unset;
+        display: block;
+        width: 100%;
+        float: left;
+    }
     .float-right {
         float: left;
     }
@@ -1090,6 +1096,10 @@ img.jssocials-share-logo {
         height: 420px;
         width: 10%;
     }
+    .outer_categoryies {
+        height: 420px;
+        overflow-y: scroll;
+    }
     .inner_right {
         margin: 0 auto;
         text-align: center;
@@ -1155,6 +1165,15 @@ img.jssocials-share-logo {
         height: 420px;
         max-width: 120px;
     }
+    .outer_categoryies {
+        position: fixed;
+        top: 50%;
+        right: 130px;
+        transform: translate(0, -50%);
+        z-index: 999;
+        height: 420px;
+        width: 270px;
+    }
     .inner_right {
         margin: 0 auto;
         text-align: center;
@@ -1192,6 +1211,15 @@ img.jssocials-share-logo {
         transform: translate(0, -50%);
         z-index: 99999;
     }
+    .outer_categoryies {
+        position: fixed;
+        top: 50%;
+        right: 180px;
+        transform: translate(0, -50%);
+        z-index: 999;
+        height: 420px;
+        width: 270px;
+    }
     .inner_right {
         margin: 0 auto;
         text-align: center;
@@ -1200,3 +1228,45 @@ img.jssocials-share-logo {
         margin-top: 20px;
     }
 }
+
+/* blog css */
+.post-title{
+    color: #000000
+}
+.post-short-desc{
+    color: #000000
+}
+.category-list{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.category-list-div{
+    padding: 5px 12px;
+    font-size: 16px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.category-list-div a{
+    color: #000000;
+    text-decoration: none;
+}
+.zoom {
+    transition: transform .2s;    /* Animation */
+    width: 98%;
+    height: 140px;
+    margin: 0 auto;
+}
+.post{
+    padding: 15px;
+}
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+.MultiCarousel .MultiCarousel-inner .item { float: left;}
+.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }

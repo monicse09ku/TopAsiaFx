@@ -27,11 +27,11 @@ class PostsController extends Controller
 	public function accessRules()
 	{
 		return array(
-			/*array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('create', 'verifyUser'),
+			array('allow',  // allow all users to perform 'index' and 'view' actions
+				'actions'=>array('LoadMorePosts'),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+			/*array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('admin'),
 				//'users'=>array('@'),
 				'expression'=>'$user->isMember()'
@@ -216,6 +216,50 @@ class PostsController extends Controller
 		$this->render('admin',array(
 			'model'=>$model,
 		));
+	}
+
+	public function actionLoadMorePosts(){
+		$result['hideLoader'] = 'false';
+		$result['result_html'] = '';
+		$postCount = trim($_POST['postsCount']) * 12;
+		$sql = "SELECT * FROM posts ORDER BY create_date DESC LIMIT 12 OFFSET ".$postCount;
+		
+		if(!empty($_POST['category'])){
+			$sql = "SELECT * FROM posts 
+						INNER JOIN post_category ON posts.id = post_category.post_id 
+						INNER JOIN categories ON categories.id = post_category.category_id 
+						WHERE categories.name = '".trim(urldecode($_POST['category']))."'
+						ORDER BY posts.create_date DESC LIMIT 12 OFFSET ".$postCount;
+		}
+
+		$posts = Yii::app()->db->createCommand($sql)->queryAll();
+
+        for($i = 0; $i < count($posts); $i++ ){
+            if(($i%3) == 0){
+            	$result['result_html'] .= "<div class='row post-div'>";
+            }
+
+            $post_url = Yii::app()->getBaseUrl(true).'/blogs/'.$posts[$i]['url'];
+            $image_url = Yii::app()->getBaseUrl(true).'/images/post_images/'.$posts[$i]['thumbnail'];
+            $title = $posts[$i]['title'];
+            $short_description = substr($posts[$i]['short_description'], 0, 120);
+            
+            $result['result_html'] .= "<div class='col-md-4 col-sm-6'><a style='text-decoration: none;' href='". $post_url ."'><img class='img img-responsive zoom' src='". $image_url ."'><h4 class='post-title'>". $title ."</h4><p class='post-short-desc'>". $short_description ."</p><p>Read More...</p></a></div>";
+
+            if((($i > 0) && ($i%3) == 2)){
+            	$result['result_html'] .= "</div>";
+            }
+        }
+        
+        if(($i%3) != 0){
+        	$result['result_html'] .= "</div>";
+        }
+
+        if (count($posts) < 12) {
+        	$result['hideLoader'] = 'true';
+        }
+
+		die(json_encode($result));
 	}
 
 	/**

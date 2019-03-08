@@ -48,6 +48,10 @@ class SiteController extends Controller
 						    ->where('page=:page', array(':page'=>'home'))
 						    ->queryAll();
 
+		$posts_sql = "SELECT * FROM posts ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
+
 		Yii::app()->session['title'] = "In Depth Reviews From 2019 Latest Forex Brokers - TopAsiaFX";
 		
 		Yii::app()->session['meta_title'] = "Advanced Top Forex Broker's Reviews & Compares in Asia 2019";
@@ -56,7 +60,7 @@ class SiteController extends Controller
 	
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index', array('brokers_data' => $brokers_data, 'banner_data' => $banner_data, 'faqs' => $faqs));
+		$this->render('index', array('brokers_data' => $brokers_data, 'banner_data' => $banner_data, 'faqs' => $faqs, 'posts' => $posts));
 	}
 
 	/**
@@ -411,6 +415,20 @@ class SiteController extends Controller
 
 		Yii::app()->session['meta_description'] = "TopAsiaFX Blog- This Forex blog is used to share of 2019's daily Forex trading experience, stock markets, commodity, and other currency related information that can bring you an advanced trader.";
 
+		$banner_sql = "SELECT * FROM banner_settings";
+
+		$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
+		foreach ($raw_banner_data as $key => $value) {
+			$banner_data[$value['position']] = $value;
+		}
+
+		/*$sql = "SELECT * FROM tbl_brokers ORDER BY score DESC LIMIT 5";
+
+		$brokers_data = Yii::app()->db->createCommand($sql)->queryAll();*/
+
+		$category_sql = "SELECT * FROM categories";
+		$categories = Yii::app()->db->createCommand($category_sql)->queryAll();
+
 		if(!empty($_GET['url'])){
 			$this->layout='//layouts/column2';
 			$url = trim($_GET['url']);
@@ -422,6 +440,10 @@ class SiteController extends Controller
 			if(empty($post)){
 				$this->redirect(array('404'));
 			}
+
+			$update_view_count_sql = "UPDATE posts SET total_views = " . ($post['total_views'] + 1) . " WHERE id=".$post['id'];
+
+			Yii::app()->db->createCommand($update_view_count_sql)->execute();
 			
 			$blog_categories_sql = "SELECT * FROM categories 
 									INNER JOIN post_category ON categories.id = post_category.category_id
@@ -429,6 +451,8 @@ class SiteController extends Controller
 
 			$blog_categories = Yii::app()->db->createCommand($blog_categories_sql)->queryAll();
 
+			Yii::app()->session['title'] = $post['title'];
+			
 			if(!empty($post['meta_title'])){
 				Yii::app()->session['meta_title'] = $post['meta_title'];
 			}
@@ -440,40 +464,46 @@ class SiteController extends Controller
 			$post_reviews_sql = "SELECT * FROM posts_review WHERE post_id='" . $post['id'] . "' AND approved=1";
 
 			$post_reviews = Yii::app()->db->createCommand($post_reviews_sql)->queryAll();
-
-			$banner_sql = "SELECT * FROM banner_settings";
-
-			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
-			foreach ($raw_banner_data as $key => $value) {
-				$banner_data[$value['position']] = $value;
-			}
-
-			$sql = "SELECT * FROM tbl_brokers ORDER BY score DESC LIMIT 5";
-
-			$brokers_data = Yii::app()->db->createCommand($sql)->queryAll();
 			
-			$this->render('blogdetail', array('post' => $post, 'blog_categories' => $blog_categories, 'post_reviews' => $post_reviews, 'single' => true, 'banner_data' => $banner_data, 'brokers_data' => $brokers_data));
+			$this->render('blogdetail', array('post' => $post, 'blog_categories' => $blog_categories, 'post_reviews' => $post_reviews, 'single' => true, 'banner_data' => $banner_data, 'categories' => $categories));
 		}else{
-			$sql = "SELECT * FROM posts";
+			if (!empty($_GET['cat'])) {
 
-			$posts = Yii::app()->db->createCommand($sql)->queryAll();
-print "<pre>";print_r($posts);exit;
-			$deposit_bonus_suggestions_sql = "SELECT * FROM deposit_bonus_suggestions WHERE approved=1";
+				$category = trim(urldecode($_GET['cat']));
 
-			$deposit_bonus_suggestions = Yii::app()->db->createCommand($deposit_bonus_suggestions_sql)->queryAll();
+				Yii::app()->session['title'] = "TopAsiaFX - Blog - " . $category;
 
-			$banner_sql = "SELECT * FROM banner_settings";
+				$sql = "SELECT * FROM posts 
+						INNER JOIN post_category ON posts.id = post_category.post_id 
+						INNER JOIN categories ON categories.id = post_category.category_id 
+						WHERE categories.name = '".$category."'
+						ORDER BY posts.create_date DESC LIMIT 12";
 
-			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
-			foreach ($raw_banner_data as $key => $value) {
-				$banner_data[$value['position']] = $value;
+				$posts = Yii::app()->db->createCommand($sql)->queryAll();
+
+				$most_viewed_sql = "SELECT * FROM posts 
+						INNER JOIN post_category ON posts.id = post_category.post_id 
+						INNER JOIN categories ON categories.id = post_category.category_id 
+						WHERE categories.name = '".$category."'
+						ORDER BY posts.total_views DESC LIMIT 10";
+
+				$most_viewed_posts = Yii::app()->db->createCommand($sql)->queryAll();
+
+			}else{
+				$sql = "SELECT * FROM posts ORDER BY create_date DESC LIMIT 12";
+
+				$posts = Yii::app()->db->createCommand($sql)->queryAll();
+
+				$most_viewed_sql = "SELECT * FROM posts ORDER BY total_views DESC LIMIT 10";
+
+				$most_viewed_posts = Yii::app()->db->createCommand($sql)->queryAll();
+
+				Yii::app()->session['title'] = "TopAsiaFX - Blog";
+				
 			}
 
-			$faqs_sql = "SELECT * FROM faqs WHERE page='forex-deposit-bonuses'";
-
-			$faqs = Yii::app()->db->createCommand($faqs_sql)->queryAll();
+			$this->render('blog', array('posts' => $posts, 'most_viewed_posts' => $most_viewed_posts, 'banner_data' => $banner_data, 'categories' => $categories));
 			
-			$this->render('depositbonuses', array('deposit_bonuses_data' => $deposit_bonuses_data, 'deposit_bonus_suggestions' => $deposit_bonus_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
 
 		}
 		
