@@ -28,7 +28,7 @@
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
-
+	<input type="hidden" name="Posts[categories]" id="post_categories" value="">
 	<div class="form-group col-md-6">
 		<?php echo $form->labelEx($model,'title'); ?>
 		<?php echo $form->textField($model,'title', array ('class' => 'form-control')); ?>
@@ -41,10 +41,18 @@
 		<?php echo $form->error($model,'url'); ?>
 	</div>
 
+	<div class="form-group col-md-6">
+		<label for="status" class="required">Status <span class="required">*</span></label><br/>
+		<select name="status" class="form-control">
+			<option value="">Select Status</option>
+			<option value="active" <?php if(!empty($model->status) && $model->status == 'active'){ echo "selected";}?>>Active</option>
+			<option value="pending" <?php if(!empty($model->status) && $model->status == 'pending'){ echo "selected";}?>>Pending</option>
+			<option value="inactive" <?php if(!empty($model->status) && $model->status == 'inactive'){ echo "selected";}?>>InActive</option>
+		</select>
+	</div>
+
 	<div class="form-group col-md-6" style="z-index: 9999;">
 		<label for="Posts_url" class="required">Select Categories <span class="required">*</span></label><br/>
-		
-		<input type="hidden" name="Posts[categories]" id="post_categories" value="">
 		<select class="ultraSelect form-control" id="mySelect1" name="myOptions1[]" multiple="multiple" size="5">
 			<?php foreach($categories as $category){?>
 		    <option value="<?php echo $category['id']?>"><?php echo $category['name']?></option>

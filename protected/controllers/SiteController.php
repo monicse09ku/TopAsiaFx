@@ -48,7 +48,7 @@ class SiteController extends Controller
 						    ->where('page=:page', array(':page'=>'home'))
 						    ->queryAll();
 
-		$posts_sql = "SELECT * FROM posts ORDER BY create_date DESC LIMIT 12";
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
 
 		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
 
@@ -477,6 +477,7 @@ class SiteController extends Controller
 						INNER JOIN post_category ON posts.id = post_category.post_id 
 						INNER JOIN categories ON categories.id = post_category.category_id 
 						WHERE categories.name = '".$category."'
+						AND status='active' 
 						ORDER BY posts.create_date DESC LIMIT 12";
 
 				$posts = Yii::app()->db->createCommand($sql)->queryAll();
@@ -485,19 +486,20 @@ class SiteController extends Controller
 						INNER JOIN post_category ON posts.id = post_category.post_id 
 						INNER JOIN categories ON categories.id = post_category.category_id 
 						WHERE categories.name = '".$category."'
+						AND posts.status='active' 
 						ORDER BY posts.total_views DESC LIMIT 10";
 
-				$most_viewed_posts = Yii::app()->db->createCommand($sql)->queryAll();
+				$most_viewed_posts = Yii::app()->db->createCommand($most_viewed_sql)->queryAll();
 
 			}else{
-				$sql = "SELECT * FROM posts ORDER BY create_date DESC LIMIT 12";
+				$sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
 
 				$posts = Yii::app()->db->createCommand($sql)->queryAll();
 
-				$most_viewed_sql = "SELECT * FROM posts ORDER BY total_views DESC LIMIT 10";
+				$most_viewed_sql = "SELECT * FROM posts WHERE status='active' ORDER BY total_views DESC LIMIT 10";
 
-				$most_viewed_posts = Yii::app()->db->createCommand($sql)->queryAll();
-
+				$most_viewed_posts = Yii::app()->db->createCommand($most_viewed_sql)->queryAll();
+				
 				Yii::app()->session['title'] = "TopAsiaFX - Blog";
 				
 			}

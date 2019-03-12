@@ -7,12 +7,15 @@
  * @property integer $id
  * @property string $title
  * @property string $url
+ * @property string $status
  * @property string $thumbnail
  * @property string $short_description
  * @property string $description
  * @property string $keywords
  * @property string $meta_title
  * @property string $meta_description
+ * @property integer $total_views
+ * @property integer $total_reviews
  * @property string $create_date
  * @property string $update_date
  */
@@ -35,11 +38,13 @@ class Posts extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('title, url, thumbnail, short_description, description, keywords, meta_title, meta_description, create_date, update_date', 'required'),
+			array('total_views, total_reviews', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>200),
 			array('url, thumbnail', 'length', 'max'=>191),
+			array('status', 'length', 'max'=>15),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, url, thumbnail, short_description, description, keywords, meta_title, meta_description, create_date, update_date', 'safe', 'on'=>'search'),
+			array('id, title, url, status, thumbnail, short_description, description, keywords, meta_title, meta_description, total_views, total_reviews, create_date, update_date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -63,12 +68,15 @@ class Posts extends CActiveRecord
 			'id' => 'ID',
 			'title' => 'Title',
 			'url' => 'Url',
+			'status' => 'Status',
 			'thumbnail' => 'Thumbnail',
 			'short_description' => 'Short Description',
 			'description' => 'Description',
 			'keywords' => 'Keywords',
 			'meta_title' => 'Meta Title',
 			'meta_description' => 'Meta Description',
+			'total_views' => 'Total Views',
+			'total_reviews' => 'Total Reviews',
 			'create_date' => 'Create Date',
 			'update_date' => 'Update Date',
 		);
@@ -95,12 +103,15 @@ class Posts extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('url',$this->url,true);
+		$criteria->compare('status',$this->status,true);
 		$criteria->compare('thumbnail',$this->thumbnail,true);
 		$criteria->compare('short_description',$this->short_description,true);
 		$criteria->compare('description',$this->description,true);
 		$criteria->compare('keywords',$this->keywords,true);
 		$criteria->compare('meta_title',$this->meta_title,true);
 		$criteria->compare('meta_description',$this->meta_description,true);
+		$criteria->compare('total_views',$this->total_views);
+		$criteria->compare('total_reviews',$this->total_reviews);
 		$criteria->compare('create_date',$this->create_date,true);
 		$criteria->compare('update_date',$this->update_date,true);
 

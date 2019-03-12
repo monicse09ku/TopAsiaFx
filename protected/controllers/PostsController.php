@@ -75,6 +75,8 @@ class PostsController extends Controller
 			
 			$model->attributes=$_POST['Posts'];
 
+			$model->status=$_POST['status'];
+
 			if(!empty($_FILES['thumbnail']['tmp_name'])){
 				$image_file_path = "images/post_images/";
 				$image_file_name = strtotime(date('Y-m-d H:i:s')) . '_' . $_FILES['thumbnail']['name'];
@@ -133,6 +135,8 @@ class PostsController extends Controller
 		if(isset($_POST['Posts']))
 		{
 			$model->attributes=$_POST['Posts'];
+
+			$model->status=$_POST['status'];
 
 			if(!empty($_FILES['thumbnail']['tmp_name'])){
 				$image_file_path = "images/post_images/";
@@ -222,14 +226,14 @@ class PostsController extends Controller
 		$result['hideLoader'] = 'false';
 		$result['result_html'] = '';
 		$postCount = trim($_POST['postsCount']) * 12;
-		$sql = "SELECT * FROM posts ORDER BY create_date DESC LIMIT 12 OFFSET ".$postCount;
+		$sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12 OFFSET ".$postCount;
 		
 		if(!empty($_POST['category'])){
 			$sql = "SELECT * FROM posts 
 						INNER JOIN post_category ON posts.id = post_category.post_id 
 						INNER JOIN categories ON categories.id = post_category.category_id 
 						WHERE categories.name = '".trim(urldecode($_POST['category']))."'
-						ORDER BY posts.create_date DESC LIMIT 12 OFFSET ".$postCount;
+						AND status='active' ORDER BY posts.create_date DESC LIMIT 12 OFFSET ".$postCount;
 		}
 
 		$posts = Yii::app()->db->createCommand($sql)->queryAll();

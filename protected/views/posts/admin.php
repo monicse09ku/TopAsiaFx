@@ -48,7 +48,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id',
 		'title',
 		'short_description',
-		'description',
+		array(
+            'name' => 'description',
+            'value' => '$data->description',
+            'htmlOptions' => array('class' => 'word-break'),
+        ),
 		'keywords',
 		'create_date',
 		/*

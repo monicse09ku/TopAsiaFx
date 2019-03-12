@@ -22,6 +22,21 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'url'); ?>
+		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>191)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'status'); ?>
+		<?php echo $form->textField($model,'status',array('size'=>15,'maxlength'=>15)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'thumbnail'); ?>
+		<?php echo $form->textField($model,'thumbnail',array('size'=>60,'maxlength'=>191)); ?>
+	</div>
+
+	<div class="row">
 		<?php echo $form->label($model,'short_description'); ?>
 		<?php echo $form->textArea($model,'short_description',array('rows'=>6, 'cols'=>50)); ?>
 	</div>
@@ -34,6 +49,26 @@
 	<div class="row">
 		<?php echo $form->label($model,'keywords'); ?>
 		<?php echo $form->textArea($model,'keywords',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'meta_title'); ?>
+		<?php echo $form->textArea($model,'meta_title',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'meta_description'); ?>
+		<?php echo $form->textArea($model,'meta_description',array('rows'=>6, 'cols'=>50)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'total_views'); ?>
+		<?php echo $form->textField($model,'total_views'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'total_reviews'); ?>
+		<?php echo $form->textField($model,'total_reviews'); ?>
 	</div>
 
 	<div class="row">
