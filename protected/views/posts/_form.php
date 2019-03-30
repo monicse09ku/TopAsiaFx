@@ -90,7 +90,7 @@
 	</div>
 	
 	<div class="col-md-12">
-	    <a target="blank" href="https://www.base64-image.de/" class="btn btn-primary">Get The Image Code</a>
+	    <strong>Base Url : </strong>https://www.topasiafx.com/images/post_detail_images/
 	    <a target="blank" href="https://compressor.io/" class="btn btn-primary pull-right">Compress Image? (Recommended)</a>
 		<div class="form-group">
 			<?php echo $form->labelEx($model,'description'); ?>
@@ -117,14 +117,14 @@
 		    selector: "#test",
 		    theme: "modern",
 		    //width: 900,
-		    height: 300,
+		    height: 400,
 		    plugins: [
 		         "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
 		         "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
 		         "save table contextmenu directionality emoticons template paste textcolor"
 		   ],
 		   content_css: "css/content.css",
-		   toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons", 
+		   toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | preview fullpage | forecolor backcolor emoticons", 
 		   block_formats: 'Paragraph=p;Header 1=h1;Header 2=h2;Header 3=h3',
 		   
 		}); 

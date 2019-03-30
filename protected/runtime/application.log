@@ -2367,3 +2367,1382 @@ Stack trace:
 REQUEST_URI=/js/raphael-min.js
 HTTP_REFERER=http://topasiafx.local/posts/admin
 ---
+2019/03/18 15:21:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/18 15:21:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/18 15:21:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/18 15:21:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/18 15:21:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/18 15:21:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/18 15:21:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/18 15:24:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/18 16:45:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/21 19:28:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:42:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:42:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:43:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:43:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:43:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:43:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:44:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:44:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:52:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:52:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:53:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:53:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:55:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 19:55:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/21 20:09:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:09:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:09:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:13:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:13:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:13:05 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:13:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:13:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:13:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:29 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:48 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:23:57 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:24:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:24:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:24:10 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:25:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:25:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/21 20:25:52 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:27:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/03/22 05:33:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:33:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:38:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:38:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:38:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:40:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:40:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:40:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:40:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 05:40:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:27:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:27:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:28:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:34:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:34:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:34:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:34:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:34:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:34:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:38:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:38:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:38:35 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:45:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:45:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:45:23 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:47:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/22 06:47:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:47:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:47:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:50:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:50:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:50:14 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:50:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:50:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 06:53:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/22 07:04:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:04:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:04:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/22 07:07:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:07:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:09:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:09:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:09:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/22 07:09:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:09:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:10:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:10:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:10:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:10:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:11:16 [warning] [application] Failed to set unsafe attribute "categories" of "Posts".
+in D:\xampp\htdocs\TopAsiaFx\protected\controllers\PostsController.php (76)
+in D:\xampp\htdocs\TopAsiaFx\index.php (13)
+2019/03/22 07:11:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:11:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:32:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:32:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:32:17 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 07:48:15 [warning] [application] Failed to set unsafe attribute "categories" of "Posts".
+in D:\xampp\htdocs\TopAsiaFx\protected\controllers\PostsController.php (76)
+in D:\xampp\htdocs\TopAsiaFx\index.php (13)
+2019/03/22 07:48:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/32
+---
+2019/03/22 07:48:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/32
+---
+2019/03/22 07:48:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/admin
+---
+2019/03/22 07:48:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/admin
+---
+2019/03/22 07:48:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/admin?Posts_page=4
+---
+2019/03/22 07:48:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/admin?Posts_page=4
+---
+2019/03/22 07:48:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/update?id=32
+---
+2019/03/22 07:48:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/update?id=32
+---
+2019/03/22 07:48:40 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/update?id=32
+---
+2019/03/22 08:01:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/update?id=32
+---
+2019/03/22 08:01:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/update?id=32
+---
+2019/03/22 08:01:12 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/update?id=32
+---
+2019/03/22 08:01:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:01:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:01:25 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:01:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:01:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:01:52 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:02:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:02:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 08:02:55 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "css". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('css')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('css')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/css')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/css/content.css
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 11:53:10 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "data-entry.jpg". in D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CController.php(270): CController->missingAction('data-entry.jpg')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(282): CController->run('data-entry.jpg')
+#2 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('posts/data-entr...')
+#3 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/posts/data-entry.jpg
+HTTP_REFERER=http://topasiafx.local/posts/create
+---
+2019/03/22 11:59:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 11:59:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 11:59:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 11:59:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 11:59:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/22 11:59:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/22 12:00:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 12:00:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 12:00:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 12:00:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/22 12:00:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/22 12:00:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/22 12:00:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/30 06:28:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/30 06:28:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/30 06:28:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/30 06:28:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/03/30 06:28:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/30 06:28:30 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/03/30 06:29:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/03/30 06:34:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/blogs
+---
+2019/03/30 06:34:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/blogs
+---
+2019/03/30 06:34:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/blogs
+---
+2019/03/30 06:34:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1545998596_IMAGE0016(1).jpg
+HTTP_REFERER=http://topasiafx.local/blogs
+---
+2019/03/30 06:34:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/blogs
+---

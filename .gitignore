@@ -1,1 +1,8 @@
 framework
+assets
+protected/runtime/
+protected/config/database.php
+.ftpquota
+.htaccess
+error_log
+protected/config/database.php
