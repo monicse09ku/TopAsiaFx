@@ -54,17 +54,17 @@
                         <ul class="nav navbar-nav float-right">
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">Home</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bonuses <span class="caret"></span></a>
+                                <a href="javascript:;" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bonuses <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-deposit-bonuses">Deposit Bonuses</a></li>
                                     <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonuses</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contests <span class="caret"></span></a>
+                                <a href="javascript:;" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contests <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/demo-contests">Demo Contest</a></li>
-                                    <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/live-contests">Live Contest</a></li>
+                                    <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-demo-contests">Demo Contest</a></li>
+                                    <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-live-contests">Live Contest</a></li>
                                 </ul>
                             </li>                            
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/about">About Us</a></li>
