@@ -49,7 +49,9 @@ class EWebUser extends CWebUser{
         $url_list = array(
                         'home'=>'Home',
                         'forex-deposit-bonuses'=>'Forex Deposit Bonuses',
-                        'forex-nodeposit-bonuses'=>'Forex No Deposit Bonuses'
+                        'forex-nodeposit-bonuses'=>'Forex No Deposit Bonuses',
+                        'demo-contests'=>'Demo Contests',
+                        'live-contests'=>'Live Contests',
                     );
 
         $sql = "SELECT broker_url FROM tbl_brokers";

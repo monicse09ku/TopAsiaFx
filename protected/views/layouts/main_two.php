@@ -66,8 +66,20 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav float-right">
                                 <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">Home</a></li>
-                                <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-deposit-bonuses">Deposit Bonuses</a></li>
-                                <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonuses</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bonuses <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-deposit-bonuses">Deposit Bonuses</a></li>
+                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonuses</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contests <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/demo-contests">Demo Contest</a></li>
+                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/live-contests">Live Contest</a></li>
+                                    </ul>
+                                </li>                            
                                 <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/about">About Us</a></li>
                                 <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/contact">Contact Us</a></li>
                                 <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/blogs">Blogs</a></li>
@@ -248,6 +260,98 @@
                     },
                 });        
             });
+
+            $("#demo_contest_suggestion_form").submit(function(e) {
+                e.preventDefault();
+            
+                var name = $('.demo_contest_suggestion_name').val();
+                if(name.length === 0){
+                    show_alert('alert-danger', 'Please provide name.');
+                    $('.demo_contest_suggestion_name').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.demo_contest_suggestion_name').css('border', '1px solid green');
+                }
+            
+                
+                var comment = $('.demo_contest_suggestion_comment').val();
+                if(comment.length === 0){
+                    show_alert('alert-danger', 'Please provide comment.');
+                    $('.demo_contest_suggestion_comment').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.demo_contest_suggestion_comment').css('border', '1px solid green');
+                }
+            
+                var values = {
+                    name: name,
+                    comment: comment,
+                };
+                var url = '<?php echo Yii::app()->getBaseUrl(true);?>/democontestssuggestion/UsersSuggestionInsert'
+                
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: values,
+                    success: function(result){
+                        var response = JSON.parse(result);
+                        if(response.status === 'failed'){
+                            show_alert('alert-danger', response.message);
+                        }else{
+                            show_alert('alert-success', response.message);
+                            $('.demo_contest_suggestion_name').val('');
+                            $('.demo_contest_suggestion_comment').val('');
+                            $('#characters_left').text('1000 characters left');
+                        }
+                    },
+                });        
+            });
+
+            $("#live_contest_suggestion_form").submit(function(e) {
+                e.preventDefault();
+            
+                var name = $('.live_contest_suggestion_name').val();
+                if(name.length === 0){
+                    show_alert('alert-danger', 'Please provide name.');
+                    $('.live_contest_suggestion_name').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.live_contest_suggestion_name').css('border', '1px solid green');
+                }
+            
+                
+                var comment = $('.live_contest_suggestion_comment').val();
+                if(comment.length === 0){
+                    show_alert('alert-danger', 'Please provide comment.');
+                    $('.live_contest_suggestion_comment').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.live_contest_suggestion_comment').css('border', '1px solid green');
+                }
+            
+                var values = {
+                    name: name,
+                    comment: comment,
+                };
+                var url = '<?php echo Yii::app()->getBaseUrl(true);?>/livecontestssuggestion/UsersSuggestionInsert'
+                
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: values,
+                    success: function(result){
+                        var response = JSON.parse(result);
+                        if(response.status === 'failed'){
+                            show_alert('alert-danger', response.message);
+                        }else{
+                            show_alert('alert-success', response.message);
+                            $('.live_contest_suggestion_name').val('');
+                            $('.live_contest_suggestion_comment').val('');
+                            $('#characters_left').text('1000 characters left');
+                        }
+                    },
+                });        
+            });
             
             /* star rating */
             var rating = 0;
@@ -420,6 +524,172 @@
                     },
                 });        
             });
+
+            $("#demo_contests_detail_reviews").submit(function(e) {
+                e.preventDefault();
+                var demo_contests_id = $('#demo_contests_id').val();
+            
+                var name = $('#demo_contests_name').val();
+                if(name.length === 0){
+                    show_alert('alert-danger', 'Please provide name.');
+                    $('#demo_contests_name').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('#demo_contests_name').css('border', '1px solid green');
+                }
+            
+                var email = $('#demo_contests_email').val();
+                if(email.length === 0){
+                    show_alert('alert-danger', 'Please provide email.');
+                    $('#demo_contests_email').css('border', '1px solid red');
+                    return false;
+                }else{
+                    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                    if (re.test(email) === false) {
+                        show_alert('alert-danger', 'Please provide valid email.');
+                        $('#demo_contests_email').css('border', '1px solid red');
+                        return false;
+                    }else{
+                        $('#demo_contests_email').css('border', '1px solid green');
+                    }                
+                }
+            
+                var country = $('#demo_contests_country').val();
+                if(country.length === 0){
+                    show_alert('alert-danger', 'Please select country.');
+                    $('#demo_contests_country').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('#demo_contests_country').css('border', '1px solid green');
+                }
+            
+                var comment = $('.demo_contests_comment').val();
+                if(comment.length === 0){
+                    show_alert('alert-danger', 'Please provide comment.');
+                    $('.demo_contests_comment').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.demo_contests_comment').css('border', '1px solid green');
+                }
+            
+                if(rating === 0){
+                    show_alert('alert-danger', 'Please provide rating.');
+                    return false;
+                }
+            
+                var values = {
+                    demo_contests_id: demo_contests_id,
+                    name: name,
+                    user_email: email,
+                    country: country,
+                    rating: rating,
+                    comment: comment,
+                };
+                var url = '<?php echo Yii::app()->getBaseUrl(true);?>/democontestsreview/UsersReviewInsert'
+                
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: values,
+                    success: function(result){
+                        var response = JSON.parse(result);
+                        if(response.status === 'failed'){
+                            show_alert('alert-danger', response.message);
+                        }else{
+                            show_alert('alert-success', response.message);
+                            $('#demo_contests_name').val('');
+                            $('#demo_contests_email').val('');
+                            $('#demo_contests_country').val('');
+                            $('.demo_contests_comment').val('');
+                            $('#characters_left').text('1000 characters left');
+                            rating = 0;
+                        }
+                    },
+                });        
+            });
+
+            $("#live_contests_detail_reviews").submit(function(e) {
+                e.preventDefault();
+                var live_contests_id = $('#live_contests_id').val();
+            
+                var name = $('#live_contests_name').val();
+                if(name.length === 0){
+                    show_alert('alert-danger', 'Please provide name.');
+                    $('#live_contests_name').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('#live_contests_name').css('border', '1px solid green');
+                }
+            
+                var email = $('#live_contests_email').val();
+                if(email.length === 0){
+                    show_alert('alert-danger', 'Please provide email.');
+                    $('#live_contests_email').css('border', '1px solid red');
+                    return false;
+                }else{
+                    let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                    if (re.test(email) === false) {
+                        show_alert('alert-danger', 'Please provide valid email.');
+                        $('#live_contests_email').css('border', '1px solid red');
+                        return false;
+                    }else{
+                        $('#live_contests_email').css('border', '1px solid green');
+                    }                
+                }
+            
+                var country = $('#live_contests_country').val();
+                if(country.length === 0){
+                    show_alert('alert-danger', 'Please select country.');
+                    $('#live_contests_country').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('#live_contests_country').css('border', '1px solid green');
+                }
+            
+                var comment = $('.live_contests_comment').val();
+                if(comment.length === 0){
+                    show_alert('alert-danger', 'Please provide comment.');
+                    $('.live_contests_comment').css('border', '1px solid red');
+                    return false;
+                }else{
+                    $('.live_contests_comment').css('border', '1px solid green');
+                }
+            
+                if(rating === 0){
+                    show_alert('alert-danger', 'Please provide rating.');
+                    return false;
+                }
+            
+                var values = {
+                    live_contests_id: live_contests_id,
+                    name: name,
+                    user_email: email,
+                    country: country,
+                    rating: rating,
+                    comment: comment,
+                };
+                var url = '<?php echo Yii::app()->getBaseUrl(true);?>/livecontestsreview/UsersReviewInsert'
+                
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: values,
+                    success: function(result){
+                        var response = JSON.parse(result);
+                        if(response.status === 'failed'){
+                            show_alert('alert-danger', response.message);
+                        }else{
+                            show_alert('alert-success', response.message);
+                            $('#live_contests_name').val('');
+                            $('#live_contests_email').val('');
+                            $('#live_contests_country').val('');
+                            $('.live_contests_comment').val('');
+                            $('#characters_left').text('1000 characters left');
+                            rating = 0;
+                        }
+                    },
+                });        
+            });
             
             $('#comment_text').keyup(updateCount);
             $('#comment_text').keydown(updateCount);
@@ -570,38 +840,6 @@ $(document).ready(function () {
             }
         }
     }
-
-    $('.load-more-button').click(function(){        
-        
-        var cat = getUrlParameter('cat');
-        if(cat !== 'undefined'){
-            var data = { postsCount: postsCount, category: cat };
-        }else{
-            var data = { postsCount: postsCount };
-        }
-        
-        var url = '<?php echo Yii::app()->getBaseUrl(true);?>/posts/LoadMorePosts';
-        
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: data,
-            success: function(result){
-                var response = JSON.parse(result);
-
-                $(".post-div:last").after(response.result_html);
-
-                if(response.hideLoader === 'true'){
-                    $('.load-more-button').hide();
-                }
-                
-            },
-        });
-
-
-      
-        postsCount++;
-    })
 
 });
             

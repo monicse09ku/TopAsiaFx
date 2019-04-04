@@ -169,6 +169,36 @@
                                 <li class="<?php if(strpos($url, 'nodepositbonussuggestions/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('nodepositbonussuggestions/admin'); ?>"><i class="fa fa-circle-o"></i> No Dep. Bonus Suggestions</a></li>
                             </ul>
                         </li>
+                        <li class="<?php if((strpos($url, 'democontest') !== false || strpos($url, 'democontestsreview') !== false || strpos($url, 'democontestssuggestion') !== false)){ echo 'active ';}?> treeview">
+                            <a href="#">
+                            <i class="fa fa-users"></i>
+                            <span>Demo Contests</span>
+                            <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li class="<?php if(strpos($url, 'democontest/create') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('democontest/create'); ?>"><i class="fa fa-circle-o"></i> Create Demo Contest</a></li>
+                                <li class="<?php if(strpos($url, 'democontest/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('democontest/admin'); ?>"><i class="fa fa-circle-o"></i> Manage Demo Contest</a></li>
+                                <li class="<?php if(strpos($url, 'democontestsreview/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('democontestsreview/admin'); ?>"><i class="fa fa-circle-o"></i> Demo Contest Reviews</a></li>
+                                <li class="<?php if(strpos($url, 'democontestsuggestions/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('democontestssuggestion/admin'); ?>"><i class="fa fa-circle-o"></i> Demo Contest Suggestions</a></li>
+                            </ul>
+                        </li>
+                        <li class="<?php if((strpos($url, 'livecontest') !== false || strpos($url, 'livecontestsreview') !== false || strpos($url, 'livecontestssuggestion') !== false)){ echo 'active ';}?> treeview">
+                            <a href="#">
+                            <i class="fa fa-users"></i>
+                            <span>Live Contests</span>
+                            <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li class="<?php if(strpos($url, 'livecontest/create') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('livecontest/create'); ?>"><i class="fa fa-circle-o"></i> Create Live Contest</a></li>
+                                <li class="<?php if(strpos($url, 'livecontest/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('livecontest/admin'); ?>"><i class="fa fa-circle-o"></i> Manage Live Contest</a></li>
+                                <li class="<?php if(strpos($url, 'livecontestsreview/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('livecontestsreview/admin'); ?>"><i class="fa fa-circle-o"></i> Live Contest Reviews</a></li>
+                                <li class="<?php if(strpos($url, 'livecontestsuggestions/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('livecontestssuggestion/admin'); ?>"><i class="fa fa-circle-o"></i> live Contest Suggestions</a></li>
+                            </ul>
+                        </li>
                         <li class="<?php if(strpos($url, 'bannersettings') !== false){ echo 'active ';}?> treeview">
                             <a href="">
                             <i class="fa fa-users"></i>

@@ -4,7 +4,7 @@
     /* @var $form CActiveForm  */
     
     ?>
-
+<?= $this->renderPartial('blog_topbar',array('categories' => $categories));?>
 <div class="container">
     <?php if(!empty($banner_data[EWebUser::HEAD])){?>
     <div class="top_banner">
@@ -26,7 +26,7 @@
     </div>
     <?php } ?>
     <div class="">
-        <div class="col-md-9" style="font-family: RobotoSlabRegular;">
+        <div class="col-md-12" style="font-family: RobotoSlabRegular;">
             <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
             <?= $this->renderPartial('posts_view',array('title' => "Most Viewed", 'posts' => $most_viewed_posts));?>
             <h3 style="font-family: RobotoSlabRegular;">View All</h3>
@@ -60,13 +60,6 @@
         </div>
     	<?php } ?>
     </div>
-    <div class="col-md-3">
-        <div class="outer_categoryies">
-            <div class="inner_categoryies">
-            <?= $this->renderPartial('blog_sidebar',array('categories' => $categories));?>
-            </div>
-        </div>
-    </div>
 </div>
 </div>
-
+<?= $this->renderPartial('footer');?>

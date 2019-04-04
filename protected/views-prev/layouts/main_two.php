@@ -77,6 +77,8 @@
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">Home</a></li>
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-deposit-bonuses">Deposit Bonuses</a></li>
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonuses</a></li>
+                            <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/demo-contests">Demo Contest</a></li>
+                            <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/live-contests">Live Contest</a></li>
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/about">About Us</a></li>
                             <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/contact">Contact Us</a></li>
                             <?php if(!Yii::app()->user->isGuest){?>

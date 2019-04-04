@@ -5,8 +5,8 @@
 
 $image_url = $post['thumbnail']; 
 ?>
-
-<div class="row">
+<?= $this->renderPartial('blog_topbar',array('categories' => $categories));?>
+<div class="container">
 	<?php if(!empty($banner_data[EWebUser::HEAD])){?>
 	    <div class="top_banner">
 	    <?php echo $banner_data[EWebUser::HEAD]['code'];?>
@@ -29,7 +29,7 @@ $image_url = $post['thumbnail'];
 	    </div>                
 	<?php } ?>
 	<div class="filter_options">
-		<div class="col-md-9" style="font-family: RobotoSlabRegular;">
+		<div class="col-md-12" style="font-family: RobotoSlabRegular;">
 			<div class="review_top">
 				<h3>
 					<?php echo $post['title']; ?>
@@ -51,13 +51,10 @@ $image_url = $post['thumbnail'];
 			</div>
 
 		</div>
-		<div class="col-md-3">
-			<?= $this->renderPartial('blog_sidebar',array('categories' => $categories));?>
-		</div>
 	</div>
 
 </div>
-
+<?= $this->renderPartial('footer');?>
 <script type="text/javascript">
 	$( document ).ready(function() {
 	    alert( "ready!" );

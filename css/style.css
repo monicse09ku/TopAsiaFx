@@ -61,6 +61,14 @@ p {
 #example_filter {
     padding-bottom: 20px;
 }
+.dropdown-menu{
+    background-color: #166499;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
 
 .display th,
 td {
@@ -646,7 +654,13 @@ div.stars {
 #topbar {
     padding: 22px 0;
 }
-
+#topbar1{
+    margin-top: 94px;
+    background-color: #65749c;    
+}
+#topbar1 ul li{
+    display: inline-block;
+}
 
 /* jssocial css */
 

@@ -403,13 +403,138 @@ class SiteController extends Controller
 		}
 	}
 
+	public function actionDemoContests()
+	{
+
+		$this->layout='//layouts/main_two';
+
+		Yii::app()->session['title'] = "Forex Best No Deposit [Sign-up] Bonus Brokers 2019 - TopAsiaFX";
+		
+		Yii::app()->session['meta_title'] = "Forex No Deposit Bonuses 2019 - Best Free Sign Up Bonus Forex brokers";
+
+		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex no deposit bonuses offer from the best forex brokers 2019. The list of running forex brokers who are providing the free sign up bonus.";
+
+		if(!empty($_GET['url'])){
+			$url = trim($_GET['url']);
+
+			$sql = "SELECT * FROM demo_contests WHERE url='" . $url . "'";;
+
+			$demo_contests_data = Yii::app()->db->createCommand($sql)->queryRow();
+
+			if(empty($demo_contests_data)){
+				$this->redirect(array('404'));
+			}
+			
+			Yii::app()->session['meta_title'] = "Forex No Deposit Bonus | " . $demo_contests_data['title'];
+
+			$demo_contests_reviews_sql = "SELECT * FROM demo_contests_review WHERE demo_contests_id='" . $demo_contests_data['id'] . "' AND approved=1";
+
+			$demo_contests_reviews = Yii::app()->db->createCommand($demo_contests_reviews_sql)->queryAll();
+
+			$banner_sql = "SELECT * FROM banner_settings";
+
+			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
+			foreach ($raw_banner_data as $key => $value) {
+				$banner_data[$value['position']] = $value;
+			}
+			
+			$this->render('democontestsdetail', array('demo_contests_data' => $demo_contests_data, 'demo_contests_reviews' => $demo_contests_reviews, 'single' => true, 'banner_data' => $banner_data));
+		}else{
+			$sql = "SELECT * FROM demo_contests ORDER BY update_date DESC";
+
+			$demo_contests_data = Yii::app()->db->createCommand($sql)->queryAll();
+
+			$demo_contests_suggestions_sql = "SELECT * FROM demo_contests_suggestions WHERE approved=1";
+
+			$demo_contests_suggestions = Yii::app()->db->createCommand($demo_contests_suggestions_sql)->queryAll();
+
+			$banner_sql = "SELECT * FROM banner_settings";
+
+			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
+			foreach ($raw_banner_data as $key => $value) {
+				$banner_data[$value['position']] = $value;
+			}
+
+			$faqs_sql = "SELECT * FROM faqs WHERE page='demo-contests'";
+
+			$faqs = Yii::app()->db->createCommand($faqs_sql)->queryAll();
+
+			// renders the view file 'protected/views/site/index.php'
+			// using the default layout 'protected/views/layouts/main.php'
+			$this->render('democontests', array('demo_contests_data' => $demo_contests_data, 'demo_contests_suggestions' => $demo_contests_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+		}
+	}
+
+	public function actionLiveContests()
+	{
+
+		$this->layout='//layouts/main_two';
+
+		Yii::app()->session['title'] = "Forex Best No Deposit [Sign-up] Bonus Brokers 2019 - TopAsiaFX";
+		
+		Yii::app()->session['meta_title'] = "Forex No Deposit Bonuses 2019 - Best Free Sign Up Bonus Forex brokers";
+
+		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex no deposit bonuses offer from the best forex brokers 2019. The list of running forex brokers who are providing the free sign up bonus.";
+
+		if(!empty($_GET['url'])){
+			$url = trim($_GET['url']);
+
+			$sql = "SELECT * FROM live_contests WHERE url='" . $url . "'";;
+
+			$live_contests_data = Yii::app()->db->createCommand($sql)->queryRow();
+
+			if(empty($live_contests_data)){
+				$this->redirect(array('404'));
+			}
+			
+			Yii::app()->session['meta_title'] = "Forex No Deposit Bonus | " . $live_contests_data['title'];
+
+			$live_contests_reviews_sql = "SELECT * FROM live_contests_review WHERE live_contests_id='" . $live_contests_data['id'] . "' AND approved=1";
+
+			$live_contests_reviews = Yii::app()->db->createCommand($live_contests_reviews_sql)->queryAll();
+
+			$banner_sql = "SELECT * FROM banner_settings";
+
+			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
+			foreach ($raw_banner_data as $key => $value) {
+				$banner_data[$value['position']] = $value;
+			}
+			
+			$this->render('livecontestsdetail', array('live_contests_data' => $live_contests_data, 'live_contests_reviews' => $live_contests_reviews, 'single' => true, 'banner_data' => $banner_data));
+		}else{
+			$sql = "SELECT * FROM live_contests ORDER BY update_date DESC";
+
+			$live_contests_data = Yii::app()->db->createCommand($sql)->queryAll();
+
+			$live_contests_suggestions_sql = "SELECT * FROM live_contests_suggestions WHERE approved=1";
+
+			$live_contests_suggestions = Yii::app()->db->createCommand($live_contests_suggestions_sql)->queryAll();
+
+			$banner_sql = "SELECT * FROM banner_settings";
+
+			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
+			foreach ($raw_banner_data as $key => $value) {
+				$banner_data[$value['position']] = $value;
+			}
+
+			$faqs_sql = "SELECT * FROM faqs WHERE page='live-contests'";
+
+			$faqs = Yii::app()->db->createCommand($faqs_sql)->queryAll();
+
+			// renders the view file 'protected/views/site/index.php'
+			// using the default layout 'protected/views/layouts/main.php'
+			$this->render('livecontests', array('live_contests_data' => $live_contests_data, 'live_contests_suggestions' => $live_contests_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+		}
+	}
+
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
 	 */
 	public function actionBlogs()
 	{
-		$this->layout='//layouts/main_two';
+		$this->layout='//layouts/blogs';
 
 		Yii::app()->session['meta_title'] = "Forex Blog- What're happening of the Forex, Commodity and Stock Markets 2019?";
 
@@ -430,7 +555,7 @@ class SiteController extends Controller
 		$categories = Yii::app()->db->createCommand($category_sql)->queryAll();
 
 		if(!empty($_GET['url'])){
-			$this->layout='//layouts/column2';
+			$this->layout='//layouts/blogs';
 			$url = trim($_GET['url']);
 
 			$sql = "SELECT * FROM posts WHERE url='" . $url . "'";
