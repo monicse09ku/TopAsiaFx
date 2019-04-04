@@ -91,7 +91,7 @@
     <table id="example" class="display" width="100%" cellspacing="0">
         <thead>
             <tr>
-                <th>Deposit bonuses</th>
+                <th>Demo Contests</th>
                 <th>Average rating</th>
                 <th>Comments</th>
                 <th>Available till</th>

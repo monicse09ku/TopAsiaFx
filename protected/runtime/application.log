@@ -12894,3 +12894,29 @@ Stack trace:
 REQUEST_URI=/images/post_images/1545998596_IMAGE0016(1).jpg
 HTTP_REFERER=http://topasiafx.local/blogs
 ---
+2019/04/04 22:03:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/04/04 22:03:28 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/04/04 22:05:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
