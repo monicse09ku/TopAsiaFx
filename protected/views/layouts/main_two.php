@@ -67,10 +67,10 @@
                             <ul class="nav navbar-nav float-right">
                                 <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">Home</a></li>
                                 <li class="dropdown">
-                                    <a href="javascript:;" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bonuses <span class="caret"></span></a>
+                                    <a href="javascript:;" class="dropdown-toggle header_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bonus <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-deposit-bonuses">Deposit Bonuses</a></li>
-                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonuses</a></li>
+                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-deposit-bonuses">Deposit Bonus</a></li>
+                                        <li><a class="header_link" href="<?php echo Yii::app()->request->getBaseUrl(true); ?>/forex-nodeposit-bonuses">No Deposit Bonus</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown">

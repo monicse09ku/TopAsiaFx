@@ -51,7 +51,10 @@ p {
 }
 
 .header_link:hover {
-    color: #000000 !important;
+    color: #fff000 !important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    background-color: #166499;
 }
 
 .navbar-brand {
