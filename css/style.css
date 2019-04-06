@@ -18,7 +18,7 @@ textarea {
 
 .top_banner {
     text-align: center;
-    margin: 30px 0;
+    margin-top: 70px;
 }
 
 .top_banner img {
@@ -63,6 +63,7 @@ p {
 }
 .dropdown-menu{
     background-color: #166499;
+    z-index: 9999;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -656,7 +657,8 @@ div.stars {
 }
 #topbar1{
     margin-top: 94px;
-    background-color: #65749c;    
+    background-color: #65749c;
+    z-index: 99;  
 }
 #topbar1 ul li{
     display: inline-block;
@@ -1087,7 +1089,7 @@ img.jssocials-share-logo {
     }
     .outer_left {
         position: fixed;
-        top: 50%;
+        top: 56%;
         left: 0px;
         transform: translate(0, -50%);
         z-index: 999;
@@ -1103,7 +1105,7 @@ img.jssocials-share-logo {
     }
     .outer_right {
         position: fixed;
-        top: 50%;
+        top: 56%;
         right: 0px;
         transform: translate(0, -50%);
         z-index: 999;
@@ -1156,7 +1158,7 @@ img.jssocials-share-logo {
     }
     .outer_left {
         position: fixed;
-        top: 50%;
+        top: 56%;
         left: 0px;
         transform: translate(0, -50%);
         z-index: 999;
@@ -1172,7 +1174,7 @@ img.jssocials-share-logo {
     }
     .outer_right {
         position: fixed;
-        top: 50%;
+        top: 56%;
         right: 0px;
         transform: translate(0, -50%);
         z-index: 999;
@@ -1209,7 +1211,7 @@ img.jssocials-share-logo {
     }
     .outer_left {
         position: fixed;
-        top: 50%;
+        top: 56%;
         left: 0px;
         transform: translate(0, -50%);
         z-index: 99999;
@@ -1220,7 +1222,7 @@ img.jssocials-share-logo {
     }
     .outer_right {
         position: fixed;
-        top: 50%;
+        top: 56%;
         right: 0px;
         transform: translate(0, -50%);
         z-index: 99999;
