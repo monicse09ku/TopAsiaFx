@@ -21,6 +21,7 @@
         <link rel="alternate" href="https://www.topasiafx.com/" hreflang="en-US"/>
         <link rel="icon" type="image/png" href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.png">
         <title><?php echo Yii::app()->session['title'];?></title>
+        <link rel="canonical" href="<?php echo Yii::app()->getBaseUrl(true).Yii::app()->request->requestUri;?>" />
         <!-- blueprint CSS framework -->
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css">
         <!-- Bootstrap 3.3.6 -->

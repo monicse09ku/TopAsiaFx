@@ -18,6 +18,7 @@
         <meta property="og:image" content="<?php echo Yii::app()->request->getBaseUrl(true); ?>/images/logo.png" />
         <meta name="google-site-verification" content="RKe5Js21ZUJ6YI4i18AFiVNMaOQ0Ko1Axi7c_6Ms2WA" />
         <title><?php echo Yii::app()->session['title'];?></title>
+        <link rel="canonical" href="<?php echo Yii::app()->getBaseUrl(true).Yii::app()->request->requestUri;?>" />
         <link rel="icon" type="image/png" href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.png">
         <link rel="alternate" href="https://www.topasiafx.com/" hreflang="en-US"/>
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/css/bootstrap.min.css">
