@@ -169,6 +169,19 @@
                                 <li class="<?php if(strpos($url, 'nodepositbonussuggestions/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('nodepositbonussuggestions/admin'); ?>"><i class="fa fa-circle-o"></i> No Dep. Bonus Suggestions</a></li>
                             </ul>
                         </li>
+                        <li class="<?php if((strpos($url, 'pagecontent') !== false)){ echo 'active ';}?> treeview">
+                            <a href="#">
+                            <i class="fa fa-users"></i>
+                            <span>Page Content</span>
+                            <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li class="<?php if(strpos($url, 'pagecontent/create') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('pagecontent/create'); ?>"><i class="fa fa-circle-o"></i> Create Page Content</a></li>
+                                <li class="<?php if(strpos($url, 'pagecontent/admin') !== false){ echo 'active ';}?> "><a href="<?php echo Yii::app()->createAbsoluteUrl('pagecontent/admin'); ?>"><i class="fa fa-circle-o"></i> Manage Page Content</a></li>
+                            </ul>
+                        </li>
                         <li class="<?php if((strpos($url, 'democontest') !== false || strpos($url, 'democontestsreview') !== false || strpos($url, 'democontestssuggestion') !== false)){ echo 'active ';}?> treeview">
                             <a href="#">
                             <i class="fa fa-users"></i>

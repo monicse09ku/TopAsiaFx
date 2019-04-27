@@ -320,6 +320,10 @@ class SiteController extends Controller
 
 			$deposit_bonus_suggestions = Yii::app()->db->createCommand($deposit_bonus_suggestions_sql)->queryAll();
 
+			$page_content_sql = "SELECT * FROM page_contents WHERE url='forex-deposit-bonuses'";
+
+			$page_content = Yii::app()->db->createCommand($page_content_sql)->queryRow();
+
 			$banner_sql = "SELECT * FROM banner_settings";
 
 			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
@@ -331,7 +335,7 @@ class SiteController extends Controller
 
 			$faqs = Yii::app()->db->createCommand($faqs_sql)->queryAll();
 			
-			$this->render('depositbonuses', array('deposit_bonuses_data' => $deposit_bonuses_data, 'deposit_bonus_suggestions' => $deposit_bonus_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('depositbonuses', array('deposit_bonuses_data' => $deposit_bonuses_data, 'deposit_bonus_suggestions' => $deposit_bonus_suggestions, 'single' => false, 'page_content' => $page_content, 'banner_data' => $banner_data, 'faqs' => $faqs));
 
 		}
 		
@@ -386,6 +390,10 @@ class SiteController extends Controller
 
 			$no_deposit_bonus_suggestions = Yii::app()->db->createCommand($no_deposit_bonus_suggestions_sql)->queryAll();
 
+			$page_content_sql = "SELECT * FROM page_contents WHERE url='forex-nodeposit-bonuses'";
+
+			$page_content = Yii::app()->db->createCommand($page_content_sql)->queryRow();
+
 			$banner_sql = "SELECT * FROM banner_settings";
 
 			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
@@ -399,7 +407,7 @@ class SiteController extends Controller
 
 			// renders the view file 'protected/views/site/index.php'
 			// using the default layout 'protected/views/layouts/main.php'
-			$this->render('nodepositbonuses', array('no_deposit_bonuses_data' => $no_deposit_bonuses_data, 'no_deposit_bonus_suggestions' => $no_deposit_bonus_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('nodepositbonuses', array('no_deposit_bonuses_data' => $no_deposit_bonuses_data, 'no_deposit_bonus_suggestions' => $no_deposit_bonus_suggestions, 'single' => false, 'page_content' => $page_content, 'banner_data' => $banner_data, 'faqs' => $faqs));
 		}
 	}
 
@@ -408,11 +416,11 @@ class SiteController extends Controller
 
 		$this->layout='//layouts/main_two';
 
-		Yii::app()->session['title'] = "Forex Best No Deposit [Sign-up] Bonus Brokers 2019 - TopAsiaFX";
+		Yii::app()->session['title'] = "Forex Demo Contests 2019 - TopAsiaFX";
 		
-		Yii::app()->session['meta_title'] = "Forex No Deposit Bonuses 2019 - Best Free Sign Up Bonus Forex brokers";
+		Yii::app()->session['meta_title'] = "Forex Demo Contest – Ultimate Guide, List &amp; Reviews 2019";
 
-		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex no deposit bonuses offer from the best forex brokers 2019. The list of running forex brokers who are providing the free sign up bonus.";
+		Yii::app()->session['meta_description'] = "Forex Demo Contest is a way for beginners that anyone can join, trade and win a BIG demo competition prize with zero invest. See this fancy contests process 2019.";
 
 		if(!empty($_GET['url'])){
 			$url = trim($_GET['url']);
@@ -448,6 +456,10 @@ class SiteController extends Controller
 
 			$demo_contests_suggestions = Yii::app()->db->createCommand($demo_contests_suggestions_sql)->queryAll();
 
+			$page_content_sql = "SELECT * FROM page_contents WHERE url='demo-contests'";
+
+			$page_content = Yii::app()->db->createCommand($page_content_sql)->queryRow();
+
 			$banner_sql = "SELECT * FROM banner_settings";
 
 			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
@@ -461,7 +473,7 @@ class SiteController extends Controller
 
 			// renders the view file 'protected/views/site/index.php'
 			// using the default layout 'protected/views/layouts/main.php'
-			$this->render('democontests', array('demo_contests_data' => $demo_contests_data, 'demo_contests_suggestions' => $demo_contests_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('democontests', array('demo_contests_data' => $demo_contests_data, 'demo_contests_suggestions' => $demo_contests_suggestions, 'page_content' => $page_content, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
 		}
 	}
 
@@ -472,9 +484,9 @@ class SiteController extends Controller
 
 		Yii::app()->session['title'] = "Forex Best No Deposit [Sign-up] Bonus Brokers 2019 - TopAsiaFX";
 		
-		Yii::app()->session['meta_title'] = "Forex No Deposit Bonuses 2019 - Best Free Sign Up Bonus Forex brokers";
+		Yii::app()->session['meta_title'] = "Forex Live Contest: Comprehensive Guide, List &amp; Reviews 2019";
 
-		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex no deposit bonuses offer from the best forex brokers 2019. The list of running forex brokers who are providing the free sign up bonus.";
+		Yii::app()->session['meta_description'] = "Forex Live Contest is a way for PRO traders who can join, trade and chance to win a BIG live competition prize by a minimum deposit. Read the whole contest actions.";
 
 		if(!empty($_GET['url'])){
 			$url = trim($_GET['url']);
@@ -510,6 +522,10 @@ class SiteController extends Controller
 
 			$live_contests_suggestions = Yii::app()->db->createCommand($live_contests_suggestions_sql)->queryAll();
 
+			$page_content_sql = "SELECT * FROM page_contents WHERE url='live-contests'";
+
+			$page_content = Yii::app()->db->createCommand($page_content_sql)->queryRow();
+
 			$banner_sql = "SELECT * FROM banner_settings";
 
 			$raw_banner_data = Yii::app()->db->createCommand($banner_sql)->queryAll();
@@ -523,7 +539,7 @@ class SiteController extends Controller
 
 			// renders the view file 'protected/views/site/index.php'
 			// using the default layout 'protected/views/layouts/main.php'
-			$this->render('livecontests', array('live_contests_data' => $live_contests_data, 'live_contests_suggestions' => $live_contests_suggestions, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('livecontests', array('live_contests_data' => $live_contests_data, 'live_contests_suggestions' => $live_contests_suggestions, 'page_content' => $page_content, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
 		}
 	}
 

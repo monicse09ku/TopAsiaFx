@@ -68,6 +68,18 @@ class EWebUser extends CWebUser{
         return $url_list;
     }
 
+    // for approved getPageUrls purposes
+    public static function getPageUrls(){
+        $url_list = array(
+                        'forex-deposit-bonuses'=>'Forex Deposit Bonuses',
+                        'forex-nodeposit-bonuses'=>'Forex No Deposit Bonuses',
+                        'demo-contests'=>'Demo Contests',
+                        'live-contests'=>'Live Contests',
+                    );
+
+        return $url_list;
+    }
+
     // for approved lists purposes
     public static function isImage(){
         return array(

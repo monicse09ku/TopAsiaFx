@@ -38,7 +38,7 @@ textarea {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .header_top_img {
@@ -590,6 +590,7 @@ div.stars {
 .top-desc-deposit {
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 .margin-right-0 {
