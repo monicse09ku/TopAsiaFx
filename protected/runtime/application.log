@@ -16034,3 +16034,173 @@ Stack trace:
 REQUEST_URI=/images/sort_asc.png
 HTTP_REFERER=http://topasiafx.local/css/data_table.css
 ---
+2019/04/27 19:43:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/04/27 19:43:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/04/27 19:43:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/04/27 19:43:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/04/27 19:43:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/04/27 19:43:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:01:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552413161_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/05/01 10:01:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552029238_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/05/01 10:01:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1552028061_aaa.png
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/05/01 10:01:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/post_images". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/post_ima...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/post_images/1549471303_profile.jpg
+HTTP_REFERER=http://topasiafx.local/
+---
+2019/05/01 10:01:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:01:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:01:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:01:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:04:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2019/05/01 10:13:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_both.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_bot...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_both.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:13:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/sort_asc.png". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('images/sort_asc...')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/sort_asc.png
+HTTP_REFERER=http://topasiafx.local/css/data_table.css
+---
+2019/05/01 10:51:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---
+2019/05/01 10:51:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/raphael-min.js". in D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\TopAsiaFx\framework\web\CWebApplication.php(141): CWebApplication->runController('js/raphael-min....')
+#1 D:\xampp\htdocs\TopAsiaFx\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\TopAsiaFx\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/raphael-min.js
+HTTP_REFERER=http://topasiafx.local/dashboard/admin
+---

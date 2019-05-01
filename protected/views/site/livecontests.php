@@ -26,7 +26,9 @@
 <?php } ?>
 <div class="col-md-10 col-md-offset-1 table-margin">
     <div class="top-desc-deposit" style="text-align:justify;">  
-        <?php echo !empty($page_content['top_content']) ? $page_content['top_content'] : '';?>
+        <div class="col-md-12">
+            <?php echo !empty($page_content['top_content']) ? $page_content['top_content'] : '';?>
+        </div>
     </div>
     
     <table id="example" class="display" width="100%" cellspacing="0">
@@ -85,7 +87,9 @@
     </table>
 
     <div class="top-desc-deposit" style="text-align:justify;">  
-        <?php echo !empty($page_content['bottom_content']) ? $page_content['bottom_content'] : '';?>
+        <div class="col-md-12">
+            <?php echo !empty($page_content['bottom_content']) ? $page_content['bottom_content'] : '';?>
+        </div>
     </div>
 
     <div class="faqs_section">

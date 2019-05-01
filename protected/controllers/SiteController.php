@@ -482,7 +482,7 @@ class SiteController extends Controller
 
 		$this->layout='//layouts/main_two';
 
-		Yii::app()->session['title'] = "Forex Best No Deposit [Sign-up] Bonus Brokers 2019 - TopAsiaFX";
+		Yii::app()->session['title'] = "Forex Best Live Contests 2019 - TopAsiaFX";
 		
 		Yii::app()->session['meta_title'] = "Forex Live Contest: Comprehensive Guide, List &amp; Reviews 2019";
 
