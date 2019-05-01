@@ -33,6 +33,9 @@
 
 		<p class="about_desc">TopAsiaFx Brokers provides you with accurate comparisons and in-depth reviews of top Forex brokers. Whether a novice trader or experienced professional, we aim to help you make an informed decision when it comes to choosing your Forex broker. TopAsiaFx Brokers is providing a free and valuable service to traders. It may however charge brokers for their reviews on our site.</p>
 
+        <div class="faqs_section">
+            <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+        </div>
 	</div>
 	<div class="col-md-3">
 		<?= $this->renderPartial('top_brokers',array('brokers_data' => $brokers_data));?>

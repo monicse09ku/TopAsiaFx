@@ -88,6 +88,10 @@
                 <!-- form -->
             </div>
             <!-- form -->
+            <div class="faqs_section">
+                <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+            </div>
+            
         </div>
         <!-- col-md-6 -->
         <div class="col-md-3">

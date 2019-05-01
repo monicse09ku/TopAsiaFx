@@ -42,6 +42,10 @@ $image_url = $post['thumbnail'];
 				<?php echo $post['description']; ?>
 			</div>	
 
+			<div class="faqs_section">
+		        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+		    </div>
+
 			<div class="review_comment">
 				<?= $this->renderPartial('post_rating',array('post_id' => $post['id']));?>
 			</div>

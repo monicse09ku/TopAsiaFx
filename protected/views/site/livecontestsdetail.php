@@ -56,6 +56,10 @@
         <?php echo $live_contests_data['details']; ?>
     </div>
 
+    <div class="faqs_section">
+        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+    </div>
+
     <div class="users-comments">
         <?= $this->renderPartial('live_contest_reviews_view',array('live_contests_reviews' => $live_contests_reviews, 'single' => $single));?>
     </div>

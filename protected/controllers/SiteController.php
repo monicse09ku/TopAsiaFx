@@ -89,7 +89,11 @@ class SiteController extends Controller
 
 		Yii::app()->session['meta_description'] = "Disclosing information about the best forex broker reviews/compares, spreads, leverage, commission, trading instrument with entire data of top broker trading platforms in Asia.";
 
-		$this->render('about', array('brokers_data' => $brokers_data, 'banner_data'=>$banner_data));
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
+
+		$this->render('about', array('brokers_data' => $brokers_data, 'banner_data'=>$banner_data, 'posts' => $posts));
 	}
 
 	/**
@@ -136,7 +140,11 @@ class SiteController extends Controller
 
 			Yii::app()->session['meta_description'] = $this_broker['meta_description'];
 
-			$this->render('review', array('brokers_data' => $brokers_data, 'this_broker' => $this_broker, 'single_broker_users_reviews' => $single_broker_users_reviews, 'banner_data'=>$banner_data, 'faqs'=>$faqs));
+			$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+			$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
+
+			$this->render('review', array('brokers_data' => $brokers_data, 'this_broker' => $this_broker, 'single_broker_users_reviews' => $single_broker_users_reviews, 'banner_data'=>$banner_data, 'faqs'=>$faqs, 'posts' => $posts));
 		}else{
 			$this->redirect(Yii::app()->homeUrl);
 		}
@@ -199,7 +207,11 @@ class SiteController extends Controller
 
 		Yii::app()->session['meta_description'] = "Disclosing information about the best forex broker reviews/compares, spreads, leverage, commission, trading instrument with entire data of top broker trading platforms in Asia.";
 
-		$this->render('contact',array('model'=>$model, 'brokers_data' => $brokers_data, 'banner_data'=>$banner_data));
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
+
+		$this->render('contact',array('model'=>$model, 'brokers_data' => $brokers_data, 'banner_data'=>$banner_data, 'posts' => $posts));
 	}
 
 	/**
@@ -286,6 +298,10 @@ class SiteController extends Controller
 
 		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex deposit bonus instantly from the best forex brokers 2019. The list of running forex brokers who are providing the welcome deposit bonus.";
 
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
+
 		if(!empty($_GET['url'])){
 			$url = trim($_GET['url']);
 
@@ -310,7 +326,7 @@ class SiteController extends Controller
 				$banner_data[$value['position']] = $value;
 			}
 			
-			$this->render('depositbonusdetail', array('deposit_bonus_data' => $deposit_bonus_data, 'deposit_bonus_reviews' => $deposit_bonus_reviews, 'single' => true, 'banner_data' => $banner_data));
+			$this->render('depositbonusdetail', array('deposit_bonus_data' => $deposit_bonus_data, 'deposit_bonus_reviews' => $deposit_bonus_reviews, 'single' => true, 'banner_data' => $banner_data, 'posts' => $posts));
 		}else{
 			$sql = "SELECT * FROM deposit_bonuses ORDER BY update_date DESC";
 
@@ -335,7 +351,7 @@ class SiteController extends Controller
 
 			$faqs = Yii::app()->db->createCommand($faqs_sql)->queryAll();
 			
-			$this->render('depositbonuses', array('deposit_bonuses_data' => $deposit_bonuses_data, 'deposit_bonus_suggestions' => $deposit_bonus_suggestions, 'single' => false, 'page_content' => $page_content, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('depositbonuses', array('deposit_bonuses_data' => $deposit_bonuses_data, 'deposit_bonus_suggestions' => $deposit_bonus_suggestions, 'single' => false, 'page_content' => $page_content, 'banner_data' => $banner_data, 'faqs' => $faqs, 'posts' => $posts));
 
 		}
 		
@@ -355,6 +371,10 @@ class SiteController extends Controller
 		Yii::app()->session['meta_title'] = "Forex No Deposit Bonuses 2019 - Best Free Sign Up Bonus Forex brokers";
 
 		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex no deposit bonuses offer from the best forex brokers 2019. The list of running forex brokers who are providing the free sign up bonus.";
+
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
 
 		if(!empty($_GET['url'])){
 			$url = trim($_GET['url']);
@@ -380,7 +400,7 @@ class SiteController extends Controller
 				$banner_data[$value['position']] = $value;
 			}
 			
-			$this->render('nodepositbonusdetail', array('no_deposit_bonus_data' => $no_deposit_bonus_data, 'no_deposit_bonus_reviews' => $no_deposit_bonus_reviews, 'single' => true, 'banner_data' => $banner_data));
+			$this->render('nodepositbonusdetail', array('no_deposit_bonus_data' => $no_deposit_bonus_data, 'no_deposit_bonus_reviews' => $no_deposit_bonus_reviews, 'single' => true, 'banner_data' => $banner_data, 'posts' => $posts));
 		}else{
 			$sql = "SELECT * FROM no_deposit_bonuses ORDER BY update_date DESC";
 
@@ -407,7 +427,7 @@ class SiteController extends Controller
 
 			// renders the view file 'protected/views/site/index.php'
 			// using the default layout 'protected/views/layouts/main.php'
-			$this->render('nodepositbonuses', array('no_deposit_bonuses_data' => $no_deposit_bonuses_data, 'no_deposit_bonus_suggestions' => $no_deposit_bonus_suggestions, 'single' => false, 'page_content' => $page_content, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('nodepositbonuses', array('no_deposit_bonuses_data' => $no_deposit_bonuses_data, 'no_deposit_bonus_suggestions' => $no_deposit_bonus_suggestions, 'single' => false, 'page_content' => $page_content, 'banner_data' => $banner_data, 'faqs' => $faqs, 'posts' => $posts));
 		}
 	}
 
@@ -421,6 +441,10 @@ class SiteController extends Controller
 		Yii::app()->session['meta_title'] = "Forex Demo Contest – Ultimate Guide, List &amp; Reviews 2019";
 
 		Yii::app()->session['meta_description'] = "Forex Demo Contest is a way for beginners that anyone can join, trade and win a BIG demo competition prize with zero invest. See this fancy contests process 2019.";
+
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
 
 		if(!empty($_GET['url'])){
 			$url = trim($_GET['url']);
@@ -446,7 +470,7 @@ class SiteController extends Controller
 				$banner_data[$value['position']] = $value;
 			}
 			
-			$this->render('democontestsdetail', array('demo_contests_data' => $demo_contests_data, 'demo_contests_reviews' => $demo_contests_reviews, 'single' => true, 'banner_data' => $banner_data));
+			$this->render('democontestsdetail', array('demo_contests_data' => $demo_contests_data, 'demo_contests_reviews' => $demo_contests_reviews, 'single' => true, 'banner_data' => $banner_data, 'posts' => $posts));
 		}else{
 			$sql = "SELECT * FROM demo_contests ORDER BY update_date DESC";
 
@@ -473,7 +497,7 @@ class SiteController extends Controller
 
 			// renders the view file 'protected/views/site/index.php'
 			// using the default layout 'protected/views/layouts/main.php'
-			$this->render('democontests', array('demo_contests_data' => $demo_contests_data, 'demo_contests_suggestions' => $demo_contests_suggestions, 'page_content' => $page_content, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('democontests', array('demo_contests_data' => $demo_contests_data, 'demo_contests_suggestions' => $demo_contests_suggestions, 'page_content' => $page_content, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs, 'posts' => $posts));
 		}
 	}
 
@@ -487,6 +511,10 @@ class SiteController extends Controller
 		Yii::app()->session['meta_title'] = "Forex Live Contest: Comprehensive Guide, List &amp; Reviews 2019";
 
 		Yii::app()->session['meta_description'] = "Forex Live Contest is a way for PRO traders who can join, trade and chance to win a BIG live competition prize by a minimum deposit. Read the whole contest actions.";
+
+		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
 
 		if(!empty($_GET['url'])){
 			$url = trim($_GET['url']);
@@ -512,7 +540,7 @@ class SiteController extends Controller
 				$banner_data[$value['position']] = $value;
 			}
 			
-			$this->render('livecontestsdetail', array('live_contests_data' => $live_contests_data, 'live_contests_reviews' => $live_contests_reviews, 'single' => true, 'banner_data' => $banner_data));
+			$this->render('livecontestsdetail', array('live_contests_data' => $live_contests_data, 'live_contests_reviews' => $live_contests_reviews, 'single' => true, 'banner_data' => $banner_data, 'posts' => $posts));
 		}else{
 			$sql = "SELECT * FROM live_contests ORDER BY update_date DESC";
 
@@ -539,7 +567,7 @@ class SiteController extends Controller
 
 			// renders the view file 'protected/views/site/index.php'
 			// using the default layout 'protected/views/layouts/main.php'
-			$this->render('livecontests', array('live_contests_data' => $live_contests_data, 'live_contests_suggestions' => $live_contests_suggestions, 'page_content' => $page_content, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs));
+			$this->render('livecontests', array('live_contests_data' => $live_contests_data, 'live_contests_suggestions' => $live_contests_suggestions, 'page_content' => $page_content, 'single' => false, 'banner_data' => $banner_data, 'faqs' => $faqs, 'posts' => $posts));
 		}
 	}
 
@@ -605,8 +633,12 @@ class SiteController extends Controller
 			$post_reviews_sql = "SELECT * FROM posts_review WHERE post_id='" . $post['id'] . "' AND approved=1";
 
 			$post_reviews = Yii::app()->db->createCommand($post_reviews_sql)->queryAll();
+
+			$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
+
+			$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
 			
-			$this->render('blogdetail', array('post' => $post, 'blog_categories' => $blog_categories, 'post_reviews' => $post_reviews, 'single' => true, 'banner_data' => $banner_data, 'categories' => $categories));
+			$this->render('blogdetail', array('post' => $post, 'blog_categories' => $blog_categories, 'post_reviews' => $post_reviews, 'single' => true, 'banner_data' => $banner_data, 'categories' => $categories, 'posts' => $posts));
 		}else{
 			if (!empty($_GET['cat'])) {
 

@@ -68,6 +68,10 @@ $image_url = $this_broker['broker_image'];
 		        <?= $this->renderPartial('faqs',array('faqs' => $faqs));?>
 		    </div>
 
+		    <div class="faqs_section">
+		        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+		    </div>
+
 			<div class="review_comment">
 				<?= $this->renderPartial('broker_rating',array('brokers_data' => $brokers_data, 'this_broker' => $this_broker));?>
 			</div>

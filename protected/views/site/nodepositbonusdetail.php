@@ -56,6 +56,10 @@
         <?php echo $no_deposit_bonus_data['details']; ?>
     </div>
 
+    <div class="faqs_section">
+        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+    </div>
+
     <div class="users-comments">
         <?= $this->renderPartial('no_deposit_bonus_reviews_view',array('no_deposit_bonus_reviews' => $no_deposit_bonus_reviews, 'single' => $single));?>
     </div>

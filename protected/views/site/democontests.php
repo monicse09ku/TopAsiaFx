@@ -96,6 +96,10 @@
         <?= $this->renderPartial('faqs',array('faqs' => $faqs));?>
     </div>
 
+    <div class="faqs_section">
+        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+    </div>
+
     <div class="review_comment">
         <?= $this->renderPartial('demo_contest_suggesstion_view',array('demo_contests_suggestions' => $demo_contests_suggestions, 'single' => $single));?>
     </div>

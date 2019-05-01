@@ -56,6 +56,10 @@
         <?php echo $deposit_bonus_data['details']; ?>
     </div>
 
+    <div class="faqs_section">
+        <?= $this->renderPartial('posts_view',array('title' => "Most Recent", 'posts' => $posts));?>
+    </div>
+
     <div class="users-comments">
         <?= $this->renderPartial('deposit_bonus_reviews_view',array('deposit_bonus_reviews' => $deposit_bonus_reviews, 'single' => $single));?>
     </div>
