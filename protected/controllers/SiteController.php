@@ -52,7 +52,7 @@ class SiteController extends Controller
 
 		$posts = Yii::app()->db->createCommand($posts_sql)->queryAll();
 
-		Yii::app()->session['title'] = "In Depth Reviews From 2019 Latest Forex Brokers - TopAsiaFX";
+		Yii::app()->session['title'] = "Advanced Top Forex Broker's Reviews & Compares in Asia 2019";
 		
 		Yii::app()->session['meta_title'] = "Advanced Top Forex Broker's Reviews & Compares in Asia 2019";
 
@@ -292,11 +292,11 @@ class SiteController extends Controller
 	{
 		$this->layout='//layouts/main_two';
 
-		Yii::app()->session['title'] = "Forex Best Deposit Bonus Brokers 2019 - TopAsiaFX";
+		Yii::app()->session['title'] = "Forex Deposit Bonus- The Ultimate Guide, List, Reviews 2019";
 		
-		Yii::app()->session['meta_title'] = "Forex Deposit Bonuses 2019 - Best Welcome Bonus Forex brokers ";
+		Yii::app()->session['meta_title'] = "Forex Deposit Bonus- The Ultimate Guide, List, Reviews 2019";
 
-		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex deposit bonus instantly from the best forex brokers 2019. The list of running forex brokers who are providing the welcome deposit bonus.";
+		Yii::app()->session['meta_description'] = "Forex Deposit Bonus is a way of attracting a new FX investor where the client will get an extra tradable bonus through their first forex deposit. See the full process.";
 
 		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
 
@@ -366,11 +366,11 @@ class SiteController extends Controller
 
 		$this->layout='//layouts/main_two';
 
-		Yii::app()->session['title'] = "Forex Best No Deposit [Sign-up] Bonus Brokers 2019 - TopAsiaFX";
+		Yii::app()->session['title'] = "2019 all Guide, List &amp; Reviews on Forex No Deposit Bonus";
 		
-		Yii::app()->session['meta_title'] = "Forex No Deposit Bonuses 2019 - Best Free Sign Up Bonus Forex brokers";
+		Yii::app()->session['meta_title'] = "2019 all Guide, List &amp; Reviews on Forex No Deposit Bonus";
 
-		Yii::app()->session['meta_description'] = "TopAsiaFX - Get the forex no deposit bonuses offer from the best forex brokers 2019. The list of running forex brokers who are providing the free sign up bonus.";
+		Yii::app()->session['meta_description'] = "Forex No Deposit Bonus, It’s a good chance of practicing trading with the free sign up bonus. Without any deposit, you can withdraw your profit by filling some lots.";
 
 		$posts_sql = "SELECT * FROM posts WHERE status='active' ORDER BY create_date DESC LIMIT 12";
 
@@ -436,7 +436,7 @@ class SiteController extends Controller
 
 		$this->layout='//layouts/main_two';
 
-		Yii::app()->session['title'] = "Forex Demo Contests 2019 - TopAsiaFX";
+		Yii::app()->session['title'] = "Forex Demo Contest – Ultimate Guide, List &amp; Reviews 2019";
 		
 		Yii::app()->session['meta_title'] = "Forex Demo Contest – Ultimate Guide, List &amp; Reviews 2019";
 
@@ -506,7 +506,7 @@ class SiteController extends Controller
 
 		$this->layout='//layouts/main_two';
 
-		Yii::app()->session['title'] = "Forex Best Live Contests 2019 - TopAsiaFX";
+		Yii::app()->session['title'] = "Forex Live Contest: Comprehensive Guide, List &amp; Reviews 2019";
 		
 		Yii::app()->session['meta_title'] = "Forex Live Contest: Comprehensive Guide, List &amp; Reviews 2019";
 
@@ -580,6 +580,8 @@ class SiteController extends Controller
 	{
 		$this->layout='//layouts/blogs';
 
+		Yii::app()->session['title'] = "Forex Blog- What're happening of the Forex, Commodity and Stock Markets 2019?";
+		
 		Yii::app()->session['meta_title'] = "Forex Blog- What're happening of the Forex, Commodity and Stock Markets 2019?";
 
 		Yii::app()->session['meta_description'] = "TopAsiaFX Blog- This Forex blog is used to share of 2019's daily Forex trading experience, stock markets, commodity, and other currency related information that can bring you an advanced trader.";

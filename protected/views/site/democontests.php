@@ -48,7 +48,7 @@
                 ?>
             <tr>
                 <td>
-                    <a href="<?php echo Yii::app()->getBaseUrl(true).'/demo-contests/'.$demo_contest_data['url'];?>">
+                    <a href="<?php echo Yii::app()->getBaseUrl(true).'/forex-demo-contests/'.$demo_contest_data['url'];?>">
                     <?php echo $demo_contest_data['title'];?>
                     </a>
                 </td>

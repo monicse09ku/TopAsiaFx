@@ -36,7 +36,7 @@ class LiveContests extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, url, image, details, available_till, create_date, update_date', 'required'),
+			array('title, url, details, available_till, create_date, update_date', 'required'),
 			array('status, total_rating, total_rater, total_comments', 'numerical', 'integerOnly'=>true),
 			array('title, url, image', 'length', 'max'=>200),
 			array('average_rating', 'length', 'max'=>11),
